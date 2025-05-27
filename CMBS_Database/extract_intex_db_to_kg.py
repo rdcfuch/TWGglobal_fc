@@ -298,7 +298,7 @@ class CMBSDatabaseHandler:
         """
         try:
             query = """
-            SELECT address, year_built, trustee_prop_type_full, state
+            SELECT address, year_built, trustee_prop_type_full, state, msa_name, prop_name
             FROM propinfo 
             WHERE deal_id = ?
             """
@@ -309,7 +309,9 @@ class CMBSDatabaseHandler:
                     'address': row['address'],
                     'year_built': row['year_built'],
                     'trustee_prop_type_full': row['trustee_prop_type_full'],
-                    'state': row['state']
+                    'state': row['state'],
+                    'msa_name': row['msa_name'],
+                    'prop_name': row['prop_name']
                 }, axis=1).tolist()
 
             print(f"No property information found for deal_id: {deal_id}")
@@ -405,7 +407,7 @@ class CMBSDatabaseHandler:
                         f"{prop_info['address']}, {prop_info['state']}" if prop_info['address'] and 'state' in prop_info and prop_info['state']
                         else (prop_info['address'] if prop_info['address'] else "UnknownAddress")
                     )
-                    print(f"*********address_for_id: {address_for_id}")
+                    # print(f"*********address_for_id: {address_for_id}")
                     # a=input("Press any key to continue...")
                     property_id = f"property:{deal_id}:{address_for_id}"
                     address_id = f"{address_for_id}"
@@ -414,6 +416,12 @@ class CMBSDatabaseHandler:
                     owner_name = prop_info.get('owner_name', 'UnknownOwner')
                     owner_type = prop_info.get('owner_type', 'UnknownType')
                     property_owner_id = f"property_owner:{owner_name}"
+                    # Add msa_name and prop_name nodes
+                    msa_name = prop_info.get('msa_name', 'UnknownMSA')
+                    print(f"*********msa_name: {msa_name}")
+                    prop_name = prop_info.get('prop_name', 'UnknownPropName')
+                    msa_name_id = f"{msa_name}"
+                    prop_name_id = f"{prop_name}"
                     address_node = {
                         "@type": "Address",
                         "@id": address_id,
@@ -433,6 +441,17 @@ class CMBSDatabaseHandler:
                         "ownerName": owner_name,
                         "ownerType": owner_type
                     }
+
+                    msa_name_node = {
+                        "@type": "MSAName",
+                        "@id": msa_name_id,
+                        "name": msa_name
+                    }
+                    prop_name_node = {
+                        "@type": "PropName",
+                        "@id": prop_name_id,
+                        "name": prop_name
+                    }
                     property_node = {
                         "@type": "Property",
                         "@id": property_id,
@@ -440,7 +459,9 @@ class CMBSDatabaseHandler:
                         "builtAt": {"@id": year_built_id},
                         "partOfDeal": {"@id": f"deal:{deal_id}"},
                         "propertyType": {"@id": trustee_prop_type_full_id},
-                        "ownedBy": {"@id": property_owner_id}
+                        "ownedBy": {"@id": property_owner_id},
+                        "inMsa": {"@id": msa_name_id},
+                        "namedAs": {"@id": prop_name_id}
                     }
                     deal_node["hasProperty"].append({"@id": property_id})
                     json_ld_data["@graph"].append(address_node)
@@ -448,6 +469,8 @@ class CMBSDatabaseHandler:
                     json_ld_data["@graph"].append(property_node)
                     json_ld_data["@graph"].append(trustee_prop_type_full_node)
                     json_ld_data["@graph"].append(property_owner_node)
+                    json_ld_data["@graph"].append(msa_name_node)
+                    json_ld_data["@graph"].append(prop_name_node)
                 json_ld_data["@graph"].append(deal_node)
             output_filename = f"cmbs_graph_{cusip_to_export}.jsonld"
             output_file_path = os.path.join(os.path.dirname(self.db_path), output_filename)

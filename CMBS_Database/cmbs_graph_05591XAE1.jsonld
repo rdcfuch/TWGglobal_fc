@@ -40,6 +40,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": ""
+      },
+      "namedAs": {
+        "@id": "Clutter NYC Portfolio"
       }
     },
     {
@@ -54,6 +60,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "",
+      "name": ""
+    },
+    {
+      "@type": "PropName",
+      "@id": "Clutter NYC Portfolio",
+      "name": "Clutter NYC Portfolio"
     },
     {
       "@type": "Address",
@@ -80,6 +96,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "New York-Newark-Jersey City, NY-NJ"
+      },
+      "namedAs": {
+        "@id": "Clutter - Yonkers"
       }
     },
     {
@@ -94,6 +116,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "New York-Newark-Jersey City, NY-NJ",
+      "name": "New York-Newark-Jersey City, NY-NJ"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Clutter - Yonkers",
+      "name": "Clutter - Yonkers"
     },
     {
       "@type": "Address",
@@ -120,6 +152,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "New York-Newark-Jersey City, NY-NJ"
+      },
+      "namedAs": {
+        "@id": "Clutter - Queens"
       }
     },
     {
@@ -134,6 +172,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "New York-Newark-Jersey City, NY-NJ",
+      "name": "New York-Newark-Jersey City, NY-NJ"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Clutter - Queens",
+      "name": "Clutter - Queens"
     },
     {
       "@type": "Address",
@@ -160,6 +208,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "New York-Newark-Jersey City, NY-NJ"
+      },
+      "namedAs": {
+        "@id": "Clutter - Brooklyn"
       }
     },
     {
@@ -174,6 +228,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "New York-Newark-Jersey City, NY-NJ",
+      "name": "New York-Newark-Jersey City, NY-NJ"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Clutter - Brooklyn",
+      "name": "Clutter - Brooklyn"
     },
     {
       "@type": "Address",
@@ -200,6 +264,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "New York-Newark-Jersey City, NY-NJ"
+      },
+      "namedAs": {
+        "@id": "Clutter - White Plains"
       }
     },
     {
@@ -214,6 +284,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "New York-Newark-Jersey City, NY-NJ",
+      "name": "New York-Newark-Jersey City, NY-NJ"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Clutter - White Plains",
+      "name": "Clutter - White Plains"
     },
     {
       "@type": "Address",
@@ -240,6 +320,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Durham-Chapel Hill, NC"
+      },
+      "namedAs": {
+        "@id": "Trilogy Chapel Hill"
       }
     },
     {
@@ -254,6 +340,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Durham-Chapel Hill, NC",
+      "name": "Durham-Chapel Hill, NC"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Trilogy Chapel Hill",
+      "name": "Trilogy Chapel Hill"
     },
     {
       "@type": "Address",
@@ -280,6 +376,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Dallas-Fort Worth-Arlington, TX"
+      },
+      "namedAs": {
+        "@id": "The Riley"
       }
     },
     {
@@ -294,6 +396,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Dallas-Fort Worth-Arlington, TX",
+      "name": "Dallas-Fort Worth-Arlington, TX"
+    },
+    {
+      "@type": "PropName",
+      "@id": "The Riley",
+      "name": "The Riley"
     },
     {
       "@type": "Address",
@@ -320,6 +432,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "New York-Newark-Jersey City, NY-NJ"
+      },
+      "namedAs": {
+        "@id": "BELA Apartments"
       }
     },
     {
@@ -334,6 +452,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "New York-Newark-Jersey City, NY-NJ",
+      "name": "New York-Newark-Jersey City, NY-NJ"
+    },
+    {
+      "@type": "PropName",
+      "@id": "BELA Apartments",
+      "name": "BELA Apartments"
     },
     {
       "@type": "Address",
@@ -360,6 +488,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Austin-Round Rock-San Marcos, TX"
+      },
+      "namedAs": {
+        "@id": "Broadstone Riverside"
       }
     },
     {
@@ -374,6 +508,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Austin-Round Rock-San Marcos, TX",
+      "name": "Austin-Round Rock-San Marcos, TX"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Broadstone Riverside",
+      "name": "Broadstone Riverside"
     },
     {
       "@type": "Address",
@@ -400,6 +544,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Los Angeles-Long Beach-Anaheim, CA"
+      },
+      "namedAs": {
+        "@id": "Portico Villas"
       }
     },
     {
@@ -414,6 +564,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Los Angeles-Long Beach-Anaheim, CA",
+      "name": "Los Angeles-Long Beach-Anaheim, CA"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Portico Villas",
+      "name": "Portico Villas"
     },
     {
       "@type": "Address",
@@ -440,6 +600,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "San Francisco-Oakland-Fremont, CA"
+      },
+      "namedAs": {
+        "@id": "Northgate Plaza"
       }
     },
     {
@@ -454,6 +620,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "San Francisco-Oakland-Fremont, CA",
+      "name": "San Francisco-Oakland-Fremont, CA"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Northgate Plaza",
+      "name": "Northgate Plaza"
     },
     {
       "@type": "Address",
@@ -480,6 +656,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Los Angeles-Long Beach-Anaheim, CA"
+      },
+      "namedAs": {
+        "@id": "625 Fair Oaks"
       }
     },
     {
@@ -494,6 +676,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Los Angeles-Long Beach-Anaheim, CA",
+      "name": "Los Angeles-Long Beach-Anaheim, CA"
+    },
+    {
+      "@type": "PropName",
+      "@id": "625 Fair Oaks",
+      "name": "625 Fair Oaks"
     },
     {
       "@type": "Address",
@@ -520,6 +712,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "San Diego-Chula Vista-Carlsbad, CA"
+      },
+      "namedAs": {
+        "@id": "Plaza Del Mar"
       }
     },
     {
@@ -534,6 +732,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "San Diego-Chula Vista-Carlsbad, CA",
+      "name": "San Diego-Chula Vista-Carlsbad, CA"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Plaza Del Mar",
+      "name": "Plaza Del Mar"
     },
     {
       "@type": "Address",
@@ -560,6 +768,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Dallas-Fort Worth-Arlington, TX"
+      },
+      "namedAs": {
+        "@id": "The Elise"
       }
     },
     {
@@ -574,6 +788,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Dallas-Fort Worth-Arlington, TX",
+      "name": "Dallas-Fort Worth-Arlington, TX"
+    },
+    {
+      "@type": "PropName",
+      "@id": "The Elise",
+      "name": "The Elise"
     },
     {
       "@type": "Address",
@@ -600,6 +824,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Las Vegas-Henderson-North Las Vegas, NV"
+      },
+      "namedAs": {
+        "@id": "Plata 47"
       }
     },
     {
@@ -614,6 +844,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Las Vegas-Henderson-North Las Vegas, NV",
+      "name": "Las Vegas-Henderson-North Las Vegas, NV"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Plata 47",
+      "name": "Plata 47"
     },
     {
       "@type": "Address",
@@ -640,6 +880,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Houston-Pasadena-The Woodlands, TX"
+      },
+      "namedAs": {
+        "@id": "The Daphne"
       }
     },
     {
@@ -654,6 +900,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Houston-Pasadena-The Woodlands, TX",
+      "name": "Houston-Pasadena-The Woodlands, TX"
+    },
+    {
+      "@type": "PropName",
+      "@id": "The Daphne",
+      "name": "The Daphne"
     },
     {
       "@type": "Address",
@@ -680,6 +936,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "New York-Newark-Jersey City, NY-NJ"
+      },
+      "namedAs": {
+        "@id": "360 Wythe"
       }
     },
     {
@@ -694,6 +956,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "New York-Newark-Jersey City, NY-NJ",
+      "name": "New York-Newark-Jersey City, NY-NJ"
+    },
+    {
+      "@type": "PropName",
+      "@id": "360 Wythe",
+      "name": "360 Wythe"
     },
     {
       "@type": "Address",
@@ -720,6 +992,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Phoenix-Mesa-Chandler, AZ"
+      },
+      "namedAs": {
+        "@id": "Mountain View Casitas"
       }
     },
     {
@@ -734,6 +1012,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Phoenix-Mesa-Chandler, AZ",
+      "name": "Phoenix-Mesa-Chandler, AZ"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Mountain View Casitas",
+      "name": "Mountain View Casitas"
     },
     {
       "@type": "Address",
@@ -760,6 +1048,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Charlotte-Concord-Gastonia, NC-SC"
+      },
+      "namedAs": {
+        "@id": "Centro Railyard"
       }
     },
     {
@@ -774,6 +1068,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Charlotte-Concord-Gastonia, NC-SC",
+      "name": "Charlotte-Concord-Gastonia, NC-SC"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Centro Railyard",
+      "name": "Centro Railyard"
     },
     {
       "@type": "Address",
@@ -800,6 +1104,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "San Francisco-Oakland-Fremont, CA"
+      },
+      "namedAs": {
+        "@id": "450 Pacific Avenue"
       }
     },
     {
@@ -814,6 +1124,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "San Francisco-Oakland-Fremont, CA",
+      "name": "San Francisco-Oakland-Fremont, CA"
+    },
+    {
+      "@type": "PropName",
+      "@id": "450 Pacific Avenue",
+      "name": "450 Pacific Avenue"
     },
     {
       "@type": "Address",
@@ -840,6 +1160,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "San Jose-Sunnyvale-Santa Clara, CA"
+      },
+      "namedAs": {
+        "@id": "Scotia"
       }
     },
     {
@@ -854,6 +1180,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "San Jose-Sunnyvale-Santa Clara, CA",
+      "name": "San Jose-Sunnyvale-Santa Clara, CA"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Scotia",
+      "name": "Scotia"
     },
     {
       "@type": "Address",
@@ -880,6 +1216,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Raleigh-Cary, NC"
+      },
+      "namedAs": {
+        "@id": "Arbors at North Hills"
       }
     },
     {
@@ -894,6 +1236,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Raleigh-Cary, NC",
+      "name": "Raleigh-Cary, NC"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Arbors at North Hills",
+      "name": "Arbors at North Hills"
     },
     {
       "@type": "Address",
@@ -920,6 +1272,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "San Francisco-Oakland-Fremont, CA"
+      },
+      "namedAs": {
+        "@id": "900 Kearny Street"
       }
     },
     {
@@ -934,6 +1292,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "San Francisco-Oakland-Fremont, CA",
+      "name": "San Francisco-Oakland-Fremont, CA"
+    },
+    {
+      "@type": "PropName",
+      "@id": "900 Kearny Street",
+      "name": "900 Kearny Street"
     },
     {
       "@type": "Address",
@@ -960,6 +1328,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": ""
+      },
+      "namedAs": {
+        "@id": "The DTC Collection"
       }
     },
     {
@@ -974,6 +1348,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "",
+      "name": ""
+    },
+    {
+      "@type": "PropName",
+      "@id": "The DTC Collection",
+      "name": "The DTC Collection"
     },
     {
       "@type": "Address",
@@ -1000,6 +1384,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Denver-Aurora-Centennial, CO"
+      },
+      "namedAs": {
+        "@id": "Terrace at Orchard Station"
       }
     },
     {
@@ -1014,6 +1404,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Denver-Aurora-Centennial, CO",
+      "name": "Denver-Aurora-Centennial, CO"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Terrace at Orchard Station",
+      "name": "Terrace at Orchard Station"
     },
     {
       "@type": "Address",
@@ -1040,6 +1440,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Denver-Aurora-Centennial, CO"
+      },
+      "namedAs": {
+        "@id": "4949 Syracuse"
       }
     },
     {
@@ -1054,6 +1460,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Denver-Aurora-Centennial, CO",
+      "name": "Denver-Aurora-Centennial, CO"
+    },
+    {
+      "@type": "PropName",
+      "@id": "4949 Syracuse",
+      "name": "4949 Syracuse"
     },
     {
       "@type": "Address",
@@ -1080,6 +1496,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "San Antonio-New Braunfels, TX"
+      },
+      "namedAs": {
+        "@id": "Bandera Commons"
       }
     },
     {
@@ -1094,6 +1516,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "San Antonio-New Braunfels, TX",
+      "name": "San Antonio-New Braunfels, TX"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Bandera Commons",
+      "name": "Bandera Commons"
     },
     {
       "@type": "Address",
@@ -1120,6 +1552,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Phoenix-Mesa-Chandler, AZ"
+      },
+      "namedAs": {
+        "@id": "Solano Pines"
       }
     },
     {
@@ -1134,6 +1572,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Phoenix-Mesa-Chandler, AZ",
+      "name": "Phoenix-Mesa-Chandler, AZ"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Solano Pines",
+      "name": "Solano Pines"
     },
     {
       "@type": "Address",
@@ -1160,6 +1608,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Phoenix-Mesa-Chandler, AZ"
+      },
+      "namedAs": {
+        "@id": "Urban Park Apartments"
       }
     },
     {
@@ -1174,6 +1628,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Phoenix-Mesa-Chandler, AZ",
+      "name": "Phoenix-Mesa-Chandler, AZ"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Urban Park Apartments",
+      "name": "Urban Park Apartments"
     },
     {
       "@type": "Address",
@@ -1200,6 +1664,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Las Vegas-Henderson-North Las Vegas, NV"
+      },
+      "namedAs": {
+        "@id": "The Avenue"
       }
     },
     {
@@ -1214,6 +1684,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Las Vegas-Henderson-North Las Vegas, NV",
+      "name": "Las Vegas-Henderson-North Las Vegas, NV"
+    },
+    {
+      "@type": "PropName",
+      "@id": "The Avenue",
+      "name": "The Avenue"
     },
     {
       "@type": "Address",
@@ -1240,6 +1720,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Albuquerque, NM"
+      },
+      "namedAs": {
+        "@id": "The Gradely"
       }
     },
     {
@@ -1254,6 +1740,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Albuquerque, NM",
+      "name": "Albuquerque, NM"
+    },
+    {
+      "@type": "PropName",
+      "@id": "The Gradely",
+      "name": "The Gradely"
     },
     {
       "@type": "Address",
@@ -1280,6 +1776,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Phoenix-Mesa-Chandler, AZ"
+      },
+      "namedAs": {
+        "@id": "Revival on Indian School"
       }
     },
     {
@@ -1294,6 +1796,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Phoenix-Mesa-Chandler, AZ",
+      "name": "Phoenix-Mesa-Chandler, AZ"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Revival on Indian School",
+      "name": "Revival on Indian School"
     },
     {
       "@type": "Address",
@@ -1320,6 +1832,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Tucson, AZ"
+      },
+      "namedAs": {
+        "@id": "La Mirada"
       }
     },
     {
@@ -1334,6 +1852,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Tucson, AZ",
+      "name": "Tucson, AZ"
+    },
+    {
+      "@type": "PropName",
+      "@id": "La Mirada",
+      "name": "La Mirada"
     },
     {
       "@type": "Address",
@@ -1360,6 +1888,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Provo-Orem-Lehi, UT"
+      },
+      "namedAs": {
+        "@id": "Union Square"
       }
     },
     {
@@ -1374,6 +1908,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Provo-Orem-Lehi, UT",
+      "name": "Provo-Orem-Lehi, UT"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Union Square",
+      "name": "Union Square"
     },
     {
       "@type": "Address",
@@ -1400,6 +1944,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Salt Lake City-Murray, UT"
+      },
+      "namedAs": {
+        "@id": "Milagro Multifamily"
       }
     },
     {
@@ -1414,6 +1964,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Salt Lake City-Murray, UT",
+      "name": "Salt Lake City-Murray, UT"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Milagro Multifamily",
+      "name": "Milagro Multifamily"
     },
     {
       "@type": "Address",
@@ -1440,6 +2000,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Louisville/Jefferson County, KY-IN"
+      },
+      "namedAs": {
+        "@id": "Woods & Grinstead Place"
       }
     },
     {
@@ -1454,6 +2020,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Louisville/Jefferson County, KY-IN",
+      "name": "Louisville/Jefferson County, KY-IN"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Woods & Grinstead Place",
+      "name": "Woods & Grinstead Place"
     },
     {
       "@type": "Address",
@@ -1480,6 +2056,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Louisville/Jefferson County, KY-IN"
+      },
+      "namedAs": {
+        "@id": "The Woods"
       }
     },
     {
@@ -1494,6 +2076,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Louisville/Jefferson County, KY-IN",
+      "name": "Louisville/Jefferson County, KY-IN"
+    },
+    {
+      "@type": "PropName",
+      "@id": "The Woods",
+      "name": "The Woods"
     },
     {
       "@type": "Address",
@@ -1520,6 +2112,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Louisville/Jefferson County, KY-IN"
+      },
+      "namedAs": {
+        "@id": "Grinstead Place"
       }
     },
     {
@@ -1534,6 +2132,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Louisville/Jefferson County, KY-IN",
+      "name": "Louisville/Jefferson County, KY-IN"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Grinstead Place",
+      "name": "Grinstead Place"
     },
     {
       "@type": "Address",
@@ -1560,6 +2168,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "San Jose-Sunnyvale-Santa Clara, CA"
+      },
+      "namedAs": {
+        "@id": "Central Park Plaza"
       }
     },
     {
@@ -1574,6 +2188,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "San Jose-Sunnyvale-Santa Clara, CA",
+      "name": "San Jose-Sunnyvale-Santa Clara, CA"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Central Park Plaza",
+      "name": "Central Park Plaza"
     },
     {
       "@type": "Address",
@@ -1600,6 +2224,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "San Jose-Sunnyvale-Santa Clara, CA"
+      },
+      "namedAs": {
+        "@id": "2841 Junction Avenue"
       }
     },
     {
@@ -1614,6 +2244,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "San Jose-Sunnyvale-Santa Clara, CA",
+      "name": "San Jose-Sunnyvale-Santa Clara, CA"
+    },
+    {
+      "@type": "PropName",
+      "@id": "2841 Junction Avenue",
+      "name": "2841 Junction Avenue"
     },
     {
       "@type": "Address",
@@ -1640,6 +2280,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "San Jose-Sunnyvale-Santa Clara, CA"
+      },
+      "namedAs": {
+        "@id": "2880 Zanker Road"
       }
     },
     {
@@ -1654,6 +2300,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "San Jose-Sunnyvale-Santa Clara, CA",
+      "name": "San Jose-Sunnyvale-Santa Clara, CA"
+    },
+    {
+      "@type": "PropName",
+      "@id": "2880 Zanker Road",
+      "name": "2880 Zanker Road"
     },
     {
       "@type": "Address",
@@ -1680,6 +2336,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "San Jose-Sunnyvale-Santa Clara, CA"
+      },
+      "namedAs": {
+        "@id": "2870 Zanker Road"
       }
     },
     {
@@ -1694,6 +2356,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "San Jose-Sunnyvale-Santa Clara, CA",
+      "name": "San Jose-Sunnyvale-Santa Clara, CA"
+    },
+    {
+      "@type": "PropName",
+      "@id": "2870 Zanker Road",
+      "name": "2870 Zanker Road"
     },
     {
       "@type": "Address",
@@ -1720,6 +2392,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "San Jose-Sunnyvale-Santa Clara, CA"
+      },
+      "namedAs": {
+        "@id": "2860 Zanker Road"
       }
     },
     {
@@ -1734,6 +2412,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "San Jose-Sunnyvale-Santa Clara, CA",
+      "name": "San Jose-Sunnyvale-Santa Clara, CA"
+    },
+    {
+      "@type": "PropName",
+      "@id": "2860 Zanker Road",
+      "name": "2860 Zanker Road"
     },
     {
       "@type": "Address",
@@ -1760,6 +2448,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "San Jose-Sunnyvale-Santa Clara, CA"
+      },
+      "namedAs": {
+        "@id": "2890 Zanker Road"
       }
     },
     {
@@ -1774,6 +2468,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "San Jose-Sunnyvale-Santa Clara, CA",
+      "name": "San Jose-Sunnyvale-Santa Clara, CA"
+    },
+    {
+      "@type": "PropName",
+      "@id": "2890 Zanker Road",
+      "name": "2890 Zanker Road"
     },
     {
       "@type": "Address",
@@ -1800,6 +2504,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "San Jose-Sunnyvale-Santa Clara, CA"
+      },
+      "namedAs": {
+        "@id": "2833 Junction Avenue"
       }
     },
     {
@@ -1814,6 +2524,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "San Jose-Sunnyvale-Santa Clara, CA",
+      "name": "San Jose-Sunnyvale-Santa Clara, CA"
+    },
+    {
+      "@type": "PropName",
+      "@id": "2833 Junction Avenue",
+      "name": "2833 Junction Avenue"
     },
     {
       "@type": "Address",
@@ -1840,6 +2560,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Denver-Aurora-Centennial, CO"
+      },
+      "namedAs": {
+        "@id": "Apex on the Highline"
       }
     },
     {
@@ -1854,6 +2580,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Denver-Aurora-Centennial, CO",
+      "name": "Denver-Aurora-Centennial, CO"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Apex on the Highline",
+      "name": "Apex on the Highline"
     },
     {
       "@type": "Address",
@@ -1880,6 +2616,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Portland-Vancouver-Hillsboro, OR-WA"
+      },
+      "namedAs": {
+        "@id": "The Preserve"
       }
     },
     {
@@ -1894,6 +2636,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Portland-Vancouver-Hillsboro, OR-WA",
+      "name": "Portland-Vancouver-Hillsboro, OR-WA"
+    },
+    {
+      "@type": "PropName",
+      "@id": "The Preserve",
+      "name": "The Preserve"
     },
     {
       "@type": "Address",
@@ -1920,6 +2672,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Dallas-Fort Worth-Arlington, TX"
+      },
+      "namedAs": {
+        "@id": "Forest Cove"
       }
     },
     {
@@ -1934,6 +2692,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Dallas-Fort Worth-Arlington, TX",
+      "name": "Dallas-Fort Worth-Arlington, TX"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Forest Cove",
+      "name": "Forest Cove"
     },
     {
       "@type": "Address",
@@ -1960,6 +2728,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Dallas-Fort Worth-Arlington, TX"
+      },
+      "namedAs": {
+        "@id": "Gables Uptown Tower"
       }
     },
     {
@@ -1974,6 +2748,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Dallas-Fort Worth-Arlington, TX",
+      "name": "Dallas-Fort Worth-Arlington, TX"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Gables Uptown Tower",
+      "name": "Gables Uptown Tower"
     },
     {
       "@type": "Address",
@@ -2000,6 +2784,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Salt Lake City-Murray, UT"
+      },
+      "namedAs": {
+        "@id": "Landing Point"
       }
     },
     {
@@ -2014,6 +2804,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Salt Lake City-Murray, UT",
+      "name": "Salt Lake City-Murray, UT"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Landing Point",
+      "name": "Landing Point"
     },
     {
       "@type": "Address",
@@ -2040,6 +2840,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Portland-Vancouver-Hillsboro, OR-WA"
+      },
+      "namedAs": {
+        "@id": "55 West"
       }
     },
     {
@@ -2054,6 +2860,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Portland-Vancouver-Hillsboro, OR-WA",
+      "name": "Portland-Vancouver-Hillsboro, OR-WA"
+    },
+    {
+      "@type": "PropName",
+      "@id": "55 West",
+      "name": "55 West"
     },
     {
       "@type": "Address",
@@ -2080,6 +2896,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Dallas-Fort Worth-Arlington, TX"
+      },
+      "namedAs": {
+        "@id": "Carling at Frankford Apartments"
       }
     },
     {
@@ -2094,6 +2916,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Dallas-Fort Worth-Arlington, TX",
+      "name": "Dallas-Fort Worth-Arlington, TX"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Carling at Frankford Apartments",
+      "name": "Carling at Frankford Apartments"
     },
     {
       "@type": "Address",
@@ -2120,6 +2952,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Washington-Arlington-Alexandria, DC-VA-MD-WV"
+      },
+      "namedAs": {
+        "@id": "Makers Point"
       }
     },
     {
@@ -2134,6 +2972,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+      "name": "Washington-Arlington-Alexandria, DC-VA-MD-WV"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Makers Point",
+      "name": "Makers Point"
     },
     {
       "@type": "Address",
@@ -2160,6 +3008,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Phoenix-Mesa-Chandler, AZ"
+      },
+      "namedAs": {
+        "@id": "Urban 55"
       }
     },
     {
@@ -2174,6 +3028,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Phoenix-Mesa-Chandler, AZ",
+      "name": "Phoenix-Mesa-Chandler, AZ"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Urban 55",
+      "name": "Urban 55"
     },
     {
       "@type": "Address",
@@ -2200,6 +3064,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Portland-Vancouver-Hillsboro, OR-WA"
+      },
+      "namedAs": {
+        "@id": "Mohawk Business Park"
       }
     },
     {
@@ -2214,6 +3084,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Portland-Vancouver-Hillsboro, OR-WA",
+      "name": "Portland-Vancouver-Hillsboro, OR-WA"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Mohawk Business Park",
+      "name": "Mohawk Business Park"
     },
     {
       "@type": "Address",
@@ -2240,6 +3120,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Austin-Round Rock-San Marcos, TX"
+      },
+      "namedAs": {
+        "@id": "Balcones Club"
       }
     },
     {
@@ -2254,6 +3140,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Austin-Round Rock-San Marcos, TX",
+      "name": "Austin-Round Rock-San Marcos, TX"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Balcones Club",
+      "name": "Balcones Club"
     },
     {
       "@type": "Address",
@@ -2280,6 +3176,12 @@
       },
       "ownedBy": {
         "@id": "property_owner:UnknownOwner"
+      },
+      "inMsa": {
+        "@id": "Los Angeles-Long Beach-Anaheim, CA"
+      },
+      "namedAs": {
+        "@id": "Fountain View"
       }
     },
     {
@@ -2294,6 +3196,16 @@
       "@id": "property_owner:UnknownOwner",
       "ownerName": "UnknownOwner",
       "ownerType": "UnknownType"
+    },
+    {
+      "@type": "MSAName",
+      "@id": "Los Angeles-Long Beach-Anaheim, CA",
+      "name": "Los Angeles-Long Beach-Anaheim, CA"
+    },
+    {
+      "@type": "PropName",
+      "@id": "Fountain View",
+      "name": "Fountain View"
     },
     {
       "@type": "Deal",
