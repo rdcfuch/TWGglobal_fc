@@ -1,0 +1,1958 @@
+Processing data for CUSIP: 05491UBE7
+*********Deal_id: 8
+*********Prop_info_list: [{'address': '175 West Cliff Drive, Santa Cruz', 'year_built': '1962, 1972, 2009', 'trustee_prop_type_full': 'Lodging'}, {'address': '132 Christiana Mall, Newark', 'year_built': '1978', 'trustee_prop_type_full': 'Retail'}, {'address': '', 'year_built': '', 'trustee_prop_type_full': 'Mixed Use'}, {'address': '211, 251 and 281 River Oaks Parkway, San Jose', 'year_built': '1979-1982', 'trustee_prop_type_full': 'Office'}, {'address': '915 Guardian Way, Allen', 'year_built': '2018', 'trustee_prop_type_full': 'Office'}, {'address': '381 and 385 Marshall Avenue, St. Louis', 'year_built': '1980, 2008', 'trustee_prop_type_full': 'Office'}, {'address': '2 Tesseneer Drive, Highland Heights', 'year_built': '1983', 'trustee_prop_type_full': 'Office'}, {'address': '901 State Street, Erie', 'year_built': '1909, 1968', 'trustee_prop_type_full': 'Office'}, {'address': '6401 18th Avenue North, Great Falls', 'year_built': '2017', 'trustee_prop_type_full': 'Industrial'}, {'address': '13400 West Highway 80 East, Odessa', 'year_built': '1950', 'trustee_prop_type_full': 'Industrial'}, {'address': '', 'year_built': '', 'trustee_prop_type_full': 'Office'}, {'address': '1850, 1870, 1910 and 1930 West Rio Salado Parkway, Tempe', 'year_built': '2014, 2016, 2017', 'trustee_prop_type_full': 'Office'}, {'address': '8501 East Raintree Drive, Scottsdale', 'year_built': '2006', 'trustee_prop_type_full': 'Office'}, {'address': '', 'year_built': '', 'trustee_prop_type_full': 'Retail'}, {'address': '2520 Gulf Freeway South, League City', 'year_built': '2006', 'trustee_prop_type_full': 'Retail'}, {'address': '8800 State Highway 121, McKinney', 'year_built': '2006', 'trustee_prop_type_full': 'Retail'}, {'address': '5730 Highway 6, Missouri City', 'year_built': '2005, 2006', 'trustee_prop_type_full': 'Retail'}, {'address': '3001, 3155, 3221 and 3331 West Big Beaver Road and 2855 Coolidge Highway, Troy', 'year_built': '1973-1978', 'trustee_prop_type_full': 'Office'}, {'address': '301-477 North Azusa Avenue, West Covina', 'year_built': '1981', 'trustee_prop_type_full': 'Mixed Use'}, {'address': '600 Commerce Street, Fort Worth', 'year_built': '2007', 'trustee_prop_type_full': 'Lodging'}, {'address': '5665 East Mayo Boulevard, Phoenix', 'year_built': '2009', 'trustee_prop_type_full': 'Lodging'}, {'address': '2161-2250 Newmarket Parkway Southeast, Marietta', 'year_built': '1984-1986', 'trustee_prop_type_full': 'Office'}, {'address': '', 'year_built': '', 'trustee_prop_type_full': 'Lodging'}, {'address': '3001 Atlantic Avenue, Virginia Beach', 'year_built': '2005', 'trustee_prop_type_full': 'Lodging'}, {'address': '3315 Atlantic Avenue, Virginia Beach', 'year_built': '2014', 'trustee_prop_type_full': 'Lodging'}, {'address': '1120, 1140 and 1160 Enterprise Way, Sunnyvale', 'year_built': '2009', 'trustee_prop_type_full': 'Office'}, {'address': '', 'year_built': '', 'trustee_prop_type_full': 'Mixed Use'}, {'address': '100-700 White Clay Center Drive, Newark', 'year_built': '1983-1987', 'trustee_prop_type_full': 'Mixed Use'}, {'address': '256-263 Chapman Road, Newark', 'year_built': '1971-1983', 'trustee_prop_type_full': 'Office'}, {'address': '2200, 2400 and 2600 Ansys Drive, Canonsburg', 'year_built': '2014, 2015, 2016', 'trustee_prop_type_full': 'Office'}, {'address': '222 RHL Boulevard, Charleston', 'year_built': '1998', 'trustee_prop_type_full': 'Retail'}, {'address': '1100 Discovery Way, Sunnyvale', 'year_built': '2018', 'trustee_prop_type_full': 'Office'}, {'address': '212 Elks Point Road, Zephyr Cove', 'year_built': '1967', 'trustee_prop_type_full': 'Mixed Use'}, {'address': '', 'year_built': '', 'trustee_prop_type_full': 'Mixed Use'}, {'address': '2851-2951 South Council Road, Oklahoma City', 'year_built': '2013, 2014', 'trustee_prop_type_full': 'Industrial'}, {'address': '16100 Dillard Drive, Jersey Village', 'year_built': '2012', 'trustee_prop_type_full': 'Office'}, {'address': '16675, 16681, 17711 and 17715 Telge Road, Cypress', 'year_built': '2018', 'trustee_prop_type_full': 'Industrial'}, {'address': '11050 West Little York Road, Houston', 'year_built': '2007', 'trustee_prop_type_full': 'Industrial'}, {'address': '1902 and 1914 South Houston Avenue, Humble', 'year_built': '2018', 'trustee_prop_type_full': 'Industrial'}, {'address': '5816 Hamblen Road, Humble', 'year_built': '2015', 'trustee_prop_type_full': 'Industrial'}, {'address': '141 East Meadow Drive, Vail', 'year_built': '2010', 'trustee_prop_type_full': 'Retail'}, {'address': '5720, 5750, 5758, 5760, 5770 and 5780 Centennial Center Boulevard, Las Vegas', 'year_built': '2007', 'trustee_prop_type_full': 'Retail'}, {'address': '', 'year_built': '', 'trustee_prop_type_full': 'Securities'}, {'address': '808 West 76th Street, Chicago', 'year_built': '1925', 'trustee_prop_type_full': 'Securities'}, {'address': '6000 South Prairie Avenue, Chicago', 'year_built': '1929', 'trustee_prop_type_full': 'Securities'}, {'address': '9244 South Saginaw Avenue, Chicago', 'year_built': '1930', 'trustee_prop_type_full': 'Securities'}, {'address': '4853 South Prairie Avenue, Chicago', 'year_built': '1929', 'trustee_prop_type_full': 'Securities'}, {'address': '7348 South Dr. Martin Luther King Jr. Drive, Chicago', 'year_built': '1927', 'trustee_prop_type_full': 'Securities'}, {'address': '7944 South Paulina Street, Chicago', 'year_built': '1926', 'trustee_prop_type_full': 'Securities'}, {'address': '7801 South Saginaw Avenue, Chicago', 'year_built': '1930', 'trustee_prop_type_full': 'Securities'}, {'address': '8200 South Ingleside Avenue, Chicago', 'year_built': '1927', 'trustee_prop_type_full': 'Securities'}, {'address': '1514 West 77th Street, Chicago', 'year_built': '1926', 'trustee_prop_type_full': 'Securities'}, {'address': '8000 South Drexel Avenue, Chicago', 'year_built': '1927', 'trustee_prop_type_full': 'Securities'}, {'address': '8001 South Marshfield Avenue, Chicago', 'year_built': '1927', 'trustee_prop_type_full': 'Securities'}, {'address': '1717 West 77th Street, Chicago', 'year_built': '1926', 'trustee_prop_type_full': 'Securities'}, {'address': '1815 West 77th Street, Chicago', 'year_built': '1930', 'trustee_prop_type_full': 'Securities'}, {'address': '1704 West 77th Street, Chicago', 'year_built': '1927', 'trustee_prop_type_full': 'Securities'}, {'address': '1738 West 77th Street, Chicago', 'year_built': '1927', 'trustee_prop_type_full': 'Securities'}, {'address': '8231 South Ellis Avenue, Chicago', 'year_built': '1953', 'trustee_prop_type_full': 'Securities'}, {'address': '1735 West 79th Street, Chicago', 'year_built': '1926', 'trustee_prop_type_full': 'Securities'}, {'address': '1448 West 83rd Street, Chicago', 'year_built': '1926', 'trustee_prop_type_full': 'Securities'}, {'address': '8155 South Maryland Avenue, Chicago', 'year_built': '1930', 'trustee_prop_type_full': 'Securities'}, {'address': '8515 South Green Street, Chicago', 'year_built': '1952', 'trustee_prop_type_full': 'Securities'}, {'address': '8001 South Carpenter Street, Chicago', 'year_built': '1927', 'trustee_prop_type_full': 'Securities'}, {'address': '7914 South Kingston Avenue, Chicago', 'year_built': '1928', 'trustee_prop_type_full': 'Securities'}, {'address': '8255 South Maryland Avenue, Chicago', 'year_built': '1951', 'trustee_prop_type_full': 'Securities'}, {'address': '8514 South Crandon Avenue, Chicago', 'year_built': '1930', 'trustee_prop_type_full': 'Securities'}, {'address': '3010-3016 West Charleston Boulevard, Las Vegas', 'year_built': '1996, 1998', 'trustee_prop_type_full': 'Office'}, {'address': '1 River Place, Wilmington', 'year_built': '2004', 'trustee_prop_type_full': 'Office'}, {'address': '210, 214 and 218-224 Alexander Street and 330-350 Monroe Avenue, Rochester', 'year_built': '1969, 1992, 1993, 1998, 2009, 2010', 'trustee_prop_type_full': 'Office'}, {'address': '', 'year_built': '1985', 'trustee_prop_type_full': 'Multifamily'}, {'address': '41299 Heathmoore Court, Canton', 'year_built': '1985', 'trustee_prop_type_full': 'Multifamily'}, {'address': '6 Roanoke Lane, Rochester Hills', 'year_built': '1985', 'trustee_prop_type_full': 'Multifamily'}, {'address': '27010 Wentworth Drive, Roseville', 'year_built': '1985', 'trustee_prop_type_full': 'Multifamily'}, {'address': '', 'year_built': '', 'trustee_prop_type_full': 'Industrial'}, {'address': '6301 North Broadway, St. Louis', 'year_built': '1954', 'trustee_prop_type_full': 'Industrial'}, {'address': '7714 Commercial Drive, Troy', 'year_built': '2001', 'trustee_prop_type_full': 'Industrial'}, {'address': '10405 North Centerway Drive, Peoria', 'year_built': '2016', 'trustee_prop_type_full': 'Retail'}, {'address': '7632 Southwest Durham Road, Tigard', 'year_built': '2001', 'trustee_prop_type_full': 'Securities'}, {'address': '11411 Southern Highlands Parkway, Las Vegas', 'year_built': '2004', 'trustee_prop_type_full': 'Office'}, {'address': '11750 Fair Oaks Mall, Fairfax', 'year_built': '1980', 'trustee_prop_type_full': 'Retail'}, {'address': '', 'year_built': '', 'trustee_prop_type_full': 'Retail'}, {'address': '1501 East Algonquin Road, Algonquin', 'year_built': '2006', 'trustee_prop_type_full': 'Retail'}, {'address': '10420 Coors Bypass Northwest, Albuquerque', 'year_built': '2000', 'trustee_prop_type_full': 'Retail'}, {'address': '1948-1960 Old Fort Parkway, Murfreesboro', 'year_built': '1996-1999', 'trustee_prop_type_full': 'Retail'}, {'address': '836 Upward Road, Flat Rock', 'year_built': '2017', 'trustee_prop_type_full': 'Lodging'}, {'address': '3111 Old Sterlington Road, Monroe', 'year_built': '1972', 'trustee_prop_type_full': 'Securities'}, {'address': '100 Hampton Drive, South Pittsburg', 'year_built': '2013', 'trustee_prop_type_full': 'Lodging'}, {'address': '2420 and 2440 West Arrow Route, Upland', 'year_built': '2009', 'trustee_prop_type_full': 'Retail'}, {'address': '490 Eagles Landing Parkway, Stockbridge', 'year_built': '2000', 'trustee_prop_type_full': 'Self Storage'}, {'address': '970 Rittenhouse Road, Audubon', 'year_built': '1974', 'trustee_prop_type_full': 'Industrial'}, {'address': '9333 Atlantic Boulevard, Jacksonville', 'year_built': '2004', 'trustee_prop_type_full': 'Retail'}, {'address': '3023 Unicorn Road, Bakersfield', 'year_built': '2005', 'trustee_prop_type_full': 'Self Storage'}, {'address': '20691 IH-10, Vidor', 'year_built': '2009', 'trustee_prop_type_full': 'Lodging'}, {'address': '5630 Shed Road, Bossier City', 'year_built': '2015', 'trustee_prop_type_full': 'Self Storage'}, {'address': '122 Lincoln Boulevard, Venice', 'year_built': '1981', 'trustee_prop_type_full': 'Office'}, {'address': '231 Raymond Hill Road, Newnan', 'year_built': '2002', 'trustee_prop_type_full': 'Self Storage'}]
+
+JSON-LD data for CUSIP 05491UBE7 has been exported to: /Users/jackyfox/Documents/CMBS_Database/cmbs_graph_05491UBE7.jsonld
+
+--- Node Information for CUSIP: 05491UBE7 ---
+
+Node ID: address:8:175 West Cliff Drive, Santa Cruz
+  Type: Address
+  address: 175 West Cliff Drive, Santa Cruz
+
+Node ID: yearbuilt:8:175 West Cliff Drive, Santa Cruz
+  Type: YearBuilt
+  yearBuilt: 1962, 1972, 2009
+
+Node ID: property:8:175 West Cliff Drive, Santa Cruz
+  Type: Property
+  locatedAt: -> address:8:175 West Cliff Drive, Santa Cruz
+  builtAt: -> yearbuilt:8:175 West Cliff Drive, Santa Cruz
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:175 West Cliff Drive, Santa Cruz
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Lodging
+  usedProperty: -> property:8:175 West Cliff Drive, Santa Cruz
+
+Node ID: address:8:132 Christiana Mall, Newark
+  Type: Address
+  address: 132 Christiana Mall, Newark
+
+Node ID: yearbuilt:8:132 Christiana Mall, Newark
+  Type: YearBuilt
+  yearBuilt: 1978
+
+Node ID: property:8:132 Christiana Mall, Newark
+  Type: Property
+  locatedAt: -> address:8:132 Christiana Mall, Newark
+  builtAt: -> yearbuilt:8:132 Christiana Mall, Newark
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:132 Christiana Mall, Newark
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Retail
+  usedProperty: -> property:8:132 Christiana Mall, Newark
+
+Node ID: address:8:UnknownAddress
+  Type: Address
+  address: 
+
+Node ID: yearbuilt:8:UnknownAddress
+  Type: YearBuilt
+  yearBuilt: 
+
+Node ID: property:8:UnknownAddress
+  Type: Property
+  locatedAt: -> address:8:UnknownAddress
+  builtAt: -> yearbuilt:8:UnknownAddress
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:UnknownAddress
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Mixed Use
+  usedProperty: -> property:8:UnknownAddress
+
+Node ID: address:8:211, 251 and 281 River Oaks Parkway, San Jose
+  Type: Address
+  address: 211, 251 and 281 River Oaks Parkway, San Jose
+
+Node ID: yearbuilt:8:211, 251 and 281 River Oaks Parkway, San Jose
+  Type: YearBuilt
+  yearBuilt: 1979-1982
+
+Node ID: property:8:211, 251 and 281 River Oaks Parkway, San Jose
+  Type: Property
+  locatedAt: -> address:8:211, 251 and 281 River Oaks Parkway, San Jose
+  builtAt: -> yearbuilt:8:211, 251 and 281 River Oaks Parkway, San Jose
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:211, 251 and 281 River Oaks Parkway, San Jose
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:211, 251 and 281 River Oaks Parkway, San Jose
+
+Node ID: address:8:915 Guardian Way, Allen
+  Type: Address
+  address: 915 Guardian Way, Allen
+
+Node ID: yearbuilt:8:915 Guardian Way, Allen
+  Type: YearBuilt
+  yearBuilt: 2018
+
+Node ID: property:8:915 Guardian Way, Allen
+  Type: Property
+  locatedAt: -> address:8:915 Guardian Way, Allen
+  builtAt: -> yearbuilt:8:915 Guardian Way, Allen
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:915 Guardian Way, Allen
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:915 Guardian Way, Allen
+
+Node ID: address:8:381 and 385 Marshall Avenue, St. Louis
+  Type: Address
+  address: 381 and 385 Marshall Avenue, St. Louis
+
+Node ID: yearbuilt:8:381 and 385 Marshall Avenue, St. Louis
+  Type: YearBuilt
+  yearBuilt: 1980, 2008
+
+Node ID: property:8:381 and 385 Marshall Avenue, St. Louis
+  Type: Property
+  locatedAt: -> address:8:381 and 385 Marshall Avenue, St. Louis
+  builtAt: -> yearbuilt:8:381 and 385 Marshall Avenue, St. Louis
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:381 and 385 Marshall Avenue, St. Louis
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:381 and 385 Marshall Avenue, St. Louis
+
+Node ID: address:8:2 Tesseneer Drive, Highland Heights
+  Type: Address
+  address: 2 Tesseneer Drive, Highland Heights
+
+Node ID: yearbuilt:8:2 Tesseneer Drive, Highland Heights
+  Type: YearBuilt
+  yearBuilt: 1983
+
+Node ID: property:8:2 Tesseneer Drive, Highland Heights
+  Type: Property
+  locatedAt: -> address:8:2 Tesseneer Drive, Highland Heights
+  builtAt: -> yearbuilt:8:2 Tesseneer Drive, Highland Heights
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:2 Tesseneer Drive, Highland Heights
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:2 Tesseneer Drive, Highland Heights
+
+Node ID: address:8:901 State Street, Erie
+  Type: Address
+  address: 901 State Street, Erie
+
+Node ID: yearbuilt:8:901 State Street, Erie
+  Type: YearBuilt
+  yearBuilt: 1909, 1968
+
+Node ID: property:8:901 State Street, Erie
+  Type: Property
+  locatedAt: -> address:8:901 State Street, Erie
+  builtAt: -> yearbuilt:8:901 State Street, Erie
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:901 State Street, Erie
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:901 State Street, Erie
+
+Node ID: address:8:6401 18th Avenue North, Great Falls
+  Type: Address
+  address: 6401 18th Avenue North, Great Falls
+
+Node ID: yearbuilt:8:6401 18th Avenue North, Great Falls
+  Type: YearBuilt
+  yearBuilt: 2017
+
+Node ID: property:8:6401 18th Avenue North, Great Falls
+  Type: Property
+  locatedAt: -> address:8:6401 18th Avenue North, Great Falls
+  builtAt: -> yearbuilt:8:6401 18th Avenue North, Great Falls
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:6401 18th Avenue North, Great Falls
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Industrial
+  usedProperty: -> property:8:6401 18th Avenue North, Great Falls
+
+Node ID: address:8:13400 West Highway 80 East, Odessa
+  Type: Address
+  address: 13400 West Highway 80 East, Odessa
+
+Node ID: yearbuilt:8:13400 West Highway 80 East, Odessa
+  Type: YearBuilt
+  yearBuilt: 1950
+
+Node ID: property:8:13400 West Highway 80 East, Odessa
+  Type: Property
+  locatedAt: -> address:8:13400 West Highway 80 East, Odessa
+  builtAt: -> yearbuilt:8:13400 West Highway 80 East, Odessa
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:13400 West Highway 80 East, Odessa
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Industrial
+  usedProperty: -> property:8:13400 West Highway 80 East, Odessa
+
+Node ID: address:8:UnknownAddress
+  Type: Address
+  address: 
+
+Node ID: yearbuilt:8:UnknownAddress
+  Type: YearBuilt
+  yearBuilt: 
+
+Node ID: property:8:UnknownAddress
+  Type: Property
+  locatedAt: -> address:8:UnknownAddress
+  builtAt: -> yearbuilt:8:UnknownAddress
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:UnknownAddress
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:UnknownAddress
+
+Node ID: address:8:1850, 1870, 1910 and 1930 West Rio Salado Parkway, Tempe
+  Type: Address
+  address: 1850, 1870, 1910 and 1930 West Rio Salado Parkway, Tempe
+
+Node ID: yearbuilt:8:1850, 1870, 1910 and 1930 West Rio Salado Parkway, Tempe
+  Type: YearBuilt
+  yearBuilt: 2014, 2016, 2017
+
+Node ID: property:8:1850, 1870, 1910 and 1930 West Rio Salado Parkway, Tempe
+  Type: Property
+  locatedAt: -> address:8:1850, 1870, 1910 and 1930 West Rio Salado Parkway, Tempe
+  builtAt: -> yearbuilt:8:1850, 1870, 1910 and 1930 West Rio Salado Parkway, Tempe
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:1850, 1870, 1910 and 1930 West Rio Salado Parkway, Tempe
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:1850, 1870, 1910 and 1930 West Rio Salado Parkway, Tempe
+
+Node ID: address:8:8501 East Raintree Drive, Scottsdale
+  Type: Address
+  address: 8501 East Raintree Drive, Scottsdale
+
+Node ID: yearbuilt:8:8501 East Raintree Drive, Scottsdale
+  Type: YearBuilt
+  yearBuilt: 2006
+
+Node ID: property:8:8501 East Raintree Drive, Scottsdale
+  Type: Property
+  locatedAt: -> address:8:8501 East Raintree Drive, Scottsdale
+  builtAt: -> yearbuilt:8:8501 East Raintree Drive, Scottsdale
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:8501 East Raintree Drive, Scottsdale
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:8501 East Raintree Drive, Scottsdale
+
+Node ID: address:8:UnknownAddress
+  Type: Address
+  address: 
+
+Node ID: yearbuilt:8:UnknownAddress
+  Type: YearBuilt
+  yearBuilt: 
+
+Node ID: property:8:UnknownAddress
+  Type: Property
+  locatedAt: -> address:8:UnknownAddress
+  builtAt: -> yearbuilt:8:UnknownAddress
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:UnknownAddress
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Retail
+  usedProperty: -> property:8:UnknownAddress
+
+Node ID: address:8:2520 Gulf Freeway South, League City
+  Type: Address
+  address: 2520 Gulf Freeway South, League City
+
+Node ID: yearbuilt:8:2520 Gulf Freeway South, League City
+  Type: YearBuilt
+  yearBuilt: 2006
+
+Node ID: property:8:2520 Gulf Freeway South, League City
+  Type: Property
+  locatedAt: -> address:8:2520 Gulf Freeway South, League City
+  builtAt: -> yearbuilt:8:2520 Gulf Freeway South, League City
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:2520 Gulf Freeway South, League City
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Retail
+  usedProperty: -> property:8:2520 Gulf Freeway South, League City
+
+Node ID: address:8:8800 State Highway 121, McKinney
+  Type: Address
+  address: 8800 State Highway 121, McKinney
+
+Node ID: yearbuilt:8:8800 State Highway 121, McKinney
+  Type: YearBuilt
+  yearBuilt: 2006
+
+Node ID: property:8:8800 State Highway 121, McKinney
+  Type: Property
+  locatedAt: -> address:8:8800 State Highway 121, McKinney
+  builtAt: -> yearbuilt:8:8800 State Highway 121, McKinney
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:8800 State Highway 121, McKinney
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Retail
+  usedProperty: -> property:8:8800 State Highway 121, McKinney
+
+Node ID: address:8:5730 Highway 6, Missouri City
+  Type: Address
+  address: 5730 Highway 6, Missouri City
+
+Node ID: yearbuilt:8:5730 Highway 6, Missouri City
+  Type: YearBuilt
+  yearBuilt: 2005, 2006
+
+Node ID: property:8:5730 Highway 6, Missouri City
+  Type: Property
+  locatedAt: -> address:8:5730 Highway 6, Missouri City
+  builtAt: -> yearbuilt:8:5730 Highway 6, Missouri City
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:5730 Highway 6, Missouri City
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Retail
+  usedProperty: -> property:8:5730 Highway 6, Missouri City
+
+Node ID: address:8:3001, 3155, 3221 and 3331 West Big Beaver Road and 2855 Coolidge Highway, Troy
+  Type: Address
+  address: 3001, 3155, 3221 and 3331 West Big Beaver Road and 2855 Coolidge Highway, Troy
+
+Node ID: yearbuilt:8:3001, 3155, 3221 and 3331 West Big Beaver Road and 2855 Coolidge Highway, Troy
+  Type: YearBuilt
+  yearBuilt: 1973-1978
+
+Node ID: property:8:3001, 3155, 3221 and 3331 West Big Beaver Road and 2855 Coolidge Highway, Troy
+  Type: Property
+  locatedAt: -> address:8:3001, 3155, 3221 and 3331 West Big Beaver Road and 2855 Coolidge Highway, Troy
+  builtAt: -> yearbuilt:8:3001, 3155, 3221 and 3331 West Big Beaver Road and 2855 Coolidge Highway, Troy
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:3001, 3155, 3221 and 3331 West Big Beaver Road and 2855 Coolidge Highway, Troy
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:3001, 3155, 3221 and 3331 West Big Beaver Road and 2855 Coolidge Highway, Troy
+
+Node ID: address:8:301-477 North Azusa Avenue, West Covina
+  Type: Address
+  address: 301-477 North Azusa Avenue, West Covina
+
+Node ID: yearbuilt:8:301-477 North Azusa Avenue, West Covina
+  Type: YearBuilt
+  yearBuilt: 1981
+
+Node ID: property:8:301-477 North Azusa Avenue, West Covina
+  Type: Property
+  locatedAt: -> address:8:301-477 North Azusa Avenue, West Covina
+  builtAt: -> yearbuilt:8:301-477 North Azusa Avenue, West Covina
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:301-477 North Azusa Avenue, West Covina
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Mixed Use
+  usedProperty: -> property:8:301-477 North Azusa Avenue, West Covina
+
+Node ID: address:8:600 Commerce Street, Fort Worth
+  Type: Address
+  address: 600 Commerce Street, Fort Worth
+
+Node ID: yearbuilt:8:600 Commerce Street, Fort Worth
+  Type: YearBuilt
+  yearBuilt: 2007
+
+Node ID: property:8:600 Commerce Street, Fort Worth
+  Type: Property
+  locatedAt: -> address:8:600 Commerce Street, Fort Worth
+  builtAt: -> yearbuilt:8:600 Commerce Street, Fort Worth
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:600 Commerce Street, Fort Worth
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Lodging
+  usedProperty: -> property:8:600 Commerce Street, Fort Worth
+
+Node ID: address:8:5665 East Mayo Boulevard, Phoenix
+  Type: Address
+  address: 5665 East Mayo Boulevard, Phoenix
+
+Node ID: yearbuilt:8:5665 East Mayo Boulevard, Phoenix
+  Type: YearBuilt
+  yearBuilt: 2009
+
+Node ID: property:8:5665 East Mayo Boulevard, Phoenix
+  Type: Property
+  locatedAt: -> address:8:5665 East Mayo Boulevard, Phoenix
+  builtAt: -> yearbuilt:8:5665 East Mayo Boulevard, Phoenix
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:5665 East Mayo Boulevard, Phoenix
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Lodging
+  usedProperty: -> property:8:5665 East Mayo Boulevard, Phoenix
+
+Node ID: address:8:2161-2250 Newmarket Parkway Southeast, Marietta
+  Type: Address
+  address: 2161-2250 Newmarket Parkway Southeast, Marietta
+
+Node ID: yearbuilt:8:2161-2250 Newmarket Parkway Southeast, Marietta
+  Type: YearBuilt
+  yearBuilt: 1984-1986
+
+Node ID: property:8:2161-2250 Newmarket Parkway Southeast, Marietta
+  Type: Property
+  locatedAt: -> address:8:2161-2250 Newmarket Parkway Southeast, Marietta
+  builtAt: -> yearbuilt:8:2161-2250 Newmarket Parkway Southeast, Marietta
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:2161-2250 Newmarket Parkway Southeast, Marietta
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:2161-2250 Newmarket Parkway Southeast, Marietta
+
+Node ID: address:8:UnknownAddress
+  Type: Address
+  address: 
+
+Node ID: yearbuilt:8:UnknownAddress
+  Type: YearBuilt
+  yearBuilt: 
+
+Node ID: property:8:UnknownAddress
+  Type: Property
+  locatedAt: -> address:8:UnknownAddress
+  builtAt: -> yearbuilt:8:UnknownAddress
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:UnknownAddress
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Lodging
+  usedProperty: -> property:8:UnknownAddress
+
+Node ID: address:8:3001 Atlantic Avenue, Virginia Beach
+  Type: Address
+  address: 3001 Atlantic Avenue, Virginia Beach
+
+Node ID: yearbuilt:8:3001 Atlantic Avenue, Virginia Beach
+  Type: YearBuilt
+  yearBuilt: 2005
+
+Node ID: property:8:3001 Atlantic Avenue, Virginia Beach
+  Type: Property
+  locatedAt: -> address:8:3001 Atlantic Avenue, Virginia Beach
+  builtAt: -> yearbuilt:8:3001 Atlantic Avenue, Virginia Beach
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:3001 Atlantic Avenue, Virginia Beach
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Lodging
+  usedProperty: -> property:8:3001 Atlantic Avenue, Virginia Beach
+
+Node ID: address:8:3315 Atlantic Avenue, Virginia Beach
+  Type: Address
+  address: 3315 Atlantic Avenue, Virginia Beach
+
+Node ID: yearbuilt:8:3315 Atlantic Avenue, Virginia Beach
+  Type: YearBuilt
+  yearBuilt: 2014
+
+Node ID: property:8:3315 Atlantic Avenue, Virginia Beach
+  Type: Property
+  locatedAt: -> address:8:3315 Atlantic Avenue, Virginia Beach
+  builtAt: -> yearbuilt:8:3315 Atlantic Avenue, Virginia Beach
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:3315 Atlantic Avenue, Virginia Beach
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Lodging
+  usedProperty: -> property:8:3315 Atlantic Avenue, Virginia Beach
+
+Node ID: address:8:1120, 1140 and 1160 Enterprise Way, Sunnyvale
+  Type: Address
+  address: 1120, 1140 and 1160 Enterprise Way, Sunnyvale
+
+Node ID: yearbuilt:8:1120, 1140 and 1160 Enterprise Way, Sunnyvale
+  Type: YearBuilt
+  yearBuilt: 2009
+
+Node ID: property:8:1120, 1140 and 1160 Enterprise Way, Sunnyvale
+  Type: Property
+  locatedAt: -> address:8:1120, 1140 and 1160 Enterprise Way, Sunnyvale
+  builtAt: -> yearbuilt:8:1120, 1140 and 1160 Enterprise Way, Sunnyvale
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:1120, 1140 and 1160 Enterprise Way, Sunnyvale
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:1120, 1140 and 1160 Enterprise Way, Sunnyvale
+
+Node ID: address:8:UnknownAddress
+  Type: Address
+  address: 
+
+Node ID: yearbuilt:8:UnknownAddress
+  Type: YearBuilt
+  yearBuilt: 
+
+Node ID: property:8:UnknownAddress
+  Type: Property
+  locatedAt: -> address:8:UnknownAddress
+  builtAt: -> yearbuilt:8:UnknownAddress
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:UnknownAddress
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Mixed Use
+  usedProperty: -> property:8:UnknownAddress
+
+Node ID: address:8:100-700 White Clay Center Drive, Newark
+  Type: Address
+  address: 100-700 White Clay Center Drive, Newark
+
+Node ID: yearbuilt:8:100-700 White Clay Center Drive, Newark
+  Type: YearBuilt
+  yearBuilt: 1983-1987
+
+Node ID: property:8:100-700 White Clay Center Drive, Newark
+  Type: Property
+  locatedAt: -> address:8:100-700 White Clay Center Drive, Newark
+  builtAt: -> yearbuilt:8:100-700 White Clay Center Drive, Newark
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:100-700 White Clay Center Drive, Newark
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Mixed Use
+  usedProperty: -> property:8:100-700 White Clay Center Drive, Newark
+
+Node ID: address:8:256-263 Chapman Road, Newark
+  Type: Address
+  address: 256-263 Chapman Road, Newark
+
+Node ID: yearbuilt:8:256-263 Chapman Road, Newark
+  Type: YearBuilt
+  yearBuilt: 1971-1983
+
+Node ID: property:8:256-263 Chapman Road, Newark
+  Type: Property
+  locatedAt: -> address:8:256-263 Chapman Road, Newark
+  builtAt: -> yearbuilt:8:256-263 Chapman Road, Newark
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:256-263 Chapman Road, Newark
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:256-263 Chapman Road, Newark
+
+Node ID: address:8:2200, 2400 and 2600 Ansys Drive, Canonsburg
+  Type: Address
+  address: 2200, 2400 and 2600 Ansys Drive, Canonsburg
+
+Node ID: yearbuilt:8:2200, 2400 and 2600 Ansys Drive, Canonsburg
+  Type: YearBuilt
+  yearBuilt: 2014, 2015, 2016
+
+Node ID: property:8:2200, 2400 and 2600 Ansys Drive, Canonsburg
+  Type: Property
+  locatedAt: -> address:8:2200, 2400 and 2600 Ansys Drive, Canonsburg
+  builtAt: -> yearbuilt:8:2200, 2400 and 2600 Ansys Drive, Canonsburg
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:2200, 2400 and 2600 Ansys Drive, Canonsburg
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:2200, 2400 and 2600 Ansys Drive, Canonsburg
+
+Node ID: address:8:222 RHL Boulevard, Charleston
+  Type: Address
+  address: 222 RHL Boulevard, Charleston
+
+Node ID: yearbuilt:8:222 RHL Boulevard, Charleston
+  Type: YearBuilt
+  yearBuilt: 1998
+
+Node ID: property:8:222 RHL Boulevard, Charleston
+  Type: Property
+  locatedAt: -> address:8:222 RHL Boulevard, Charleston
+  builtAt: -> yearbuilt:8:222 RHL Boulevard, Charleston
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:222 RHL Boulevard, Charleston
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Retail
+  usedProperty: -> property:8:222 RHL Boulevard, Charleston
+
+Node ID: address:8:1100 Discovery Way, Sunnyvale
+  Type: Address
+  address: 1100 Discovery Way, Sunnyvale
+
+Node ID: yearbuilt:8:1100 Discovery Way, Sunnyvale
+  Type: YearBuilt
+  yearBuilt: 2018
+
+Node ID: property:8:1100 Discovery Way, Sunnyvale
+  Type: Property
+  locatedAt: -> address:8:1100 Discovery Way, Sunnyvale
+  builtAt: -> yearbuilt:8:1100 Discovery Way, Sunnyvale
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:1100 Discovery Way, Sunnyvale
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:1100 Discovery Way, Sunnyvale
+
+Node ID: address:8:212 Elks Point Road, Zephyr Cove
+  Type: Address
+  address: 212 Elks Point Road, Zephyr Cove
+
+Node ID: yearbuilt:8:212 Elks Point Road, Zephyr Cove
+  Type: YearBuilt
+  yearBuilt: 1967
+
+Node ID: property:8:212 Elks Point Road, Zephyr Cove
+  Type: Property
+  locatedAt: -> address:8:212 Elks Point Road, Zephyr Cove
+  builtAt: -> yearbuilt:8:212 Elks Point Road, Zephyr Cove
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:212 Elks Point Road, Zephyr Cove
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Mixed Use
+  usedProperty: -> property:8:212 Elks Point Road, Zephyr Cove
+
+Node ID: address:8:UnknownAddress
+  Type: Address
+  address: 
+
+Node ID: yearbuilt:8:UnknownAddress
+  Type: YearBuilt
+  yearBuilt: 
+
+Node ID: property:8:UnknownAddress
+  Type: Property
+  locatedAt: -> address:8:UnknownAddress
+  builtAt: -> yearbuilt:8:UnknownAddress
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:UnknownAddress
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Mixed Use
+  usedProperty: -> property:8:UnknownAddress
+
+Node ID: address:8:2851-2951 South Council Road, Oklahoma City
+  Type: Address
+  address: 2851-2951 South Council Road, Oklahoma City
+
+Node ID: yearbuilt:8:2851-2951 South Council Road, Oklahoma City
+  Type: YearBuilt
+  yearBuilt: 2013, 2014
+
+Node ID: property:8:2851-2951 South Council Road, Oklahoma City
+  Type: Property
+  locatedAt: -> address:8:2851-2951 South Council Road, Oklahoma City
+  builtAt: -> yearbuilt:8:2851-2951 South Council Road, Oklahoma City
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:2851-2951 South Council Road, Oklahoma City
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Industrial
+  usedProperty: -> property:8:2851-2951 South Council Road, Oklahoma City
+
+Node ID: address:8:16100 Dillard Drive, Jersey Village
+  Type: Address
+  address: 16100 Dillard Drive, Jersey Village
+
+Node ID: yearbuilt:8:16100 Dillard Drive, Jersey Village
+  Type: YearBuilt
+  yearBuilt: 2012
+
+Node ID: property:8:16100 Dillard Drive, Jersey Village
+  Type: Property
+  locatedAt: -> address:8:16100 Dillard Drive, Jersey Village
+  builtAt: -> yearbuilt:8:16100 Dillard Drive, Jersey Village
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:16100 Dillard Drive, Jersey Village
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:16100 Dillard Drive, Jersey Village
+
+Node ID: address:8:16675, 16681, 17711 and 17715 Telge Road, Cypress
+  Type: Address
+  address: 16675, 16681, 17711 and 17715 Telge Road, Cypress
+
+Node ID: yearbuilt:8:16675, 16681, 17711 and 17715 Telge Road, Cypress
+  Type: YearBuilt
+  yearBuilt: 2018
+
+Node ID: property:8:16675, 16681, 17711 and 17715 Telge Road, Cypress
+  Type: Property
+  locatedAt: -> address:8:16675, 16681, 17711 and 17715 Telge Road, Cypress
+  builtAt: -> yearbuilt:8:16675, 16681, 17711 and 17715 Telge Road, Cypress
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:16675, 16681, 17711 and 17715 Telge Road, Cypress
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Industrial
+  usedProperty: -> property:8:16675, 16681, 17711 and 17715 Telge Road, Cypress
+
+Node ID: address:8:11050 West Little York Road, Houston
+  Type: Address
+  address: 11050 West Little York Road, Houston
+
+Node ID: yearbuilt:8:11050 West Little York Road, Houston
+  Type: YearBuilt
+  yearBuilt: 2007
+
+Node ID: property:8:11050 West Little York Road, Houston
+  Type: Property
+  locatedAt: -> address:8:11050 West Little York Road, Houston
+  builtAt: -> yearbuilt:8:11050 West Little York Road, Houston
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:11050 West Little York Road, Houston
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Industrial
+  usedProperty: -> property:8:11050 West Little York Road, Houston
+
+Node ID: address:8:1902 and 1914 South Houston Avenue, Humble
+  Type: Address
+  address: 1902 and 1914 South Houston Avenue, Humble
+
+Node ID: yearbuilt:8:1902 and 1914 South Houston Avenue, Humble
+  Type: YearBuilt
+  yearBuilt: 2018
+
+Node ID: property:8:1902 and 1914 South Houston Avenue, Humble
+  Type: Property
+  locatedAt: -> address:8:1902 and 1914 South Houston Avenue, Humble
+  builtAt: -> yearbuilt:8:1902 and 1914 South Houston Avenue, Humble
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:1902 and 1914 South Houston Avenue, Humble
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Industrial
+  usedProperty: -> property:8:1902 and 1914 South Houston Avenue, Humble
+
+Node ID: address:8:5816 Hamblen Road, Humble
+  Type: Address
+  address: 5816 Hamblen Road, Humble
+
+Node ID: yearbuilt:8:5816 Hamblen Road, Humble
+  Type: YearBuilt
+  yearBuilt: 2015
+
+Node ID: property:8:5816 Hamblen Road, Humble
+  Type: Property
+  locatedAt: -> address:8:5816 Hamblen Road, Humble
+  builtAt: -> yearbuilt:8:5816 Hamblen Road, Humble
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:5816 Hamblen Road, Humble
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Industrial
+  usedProperty: -> property:8:5816 Hamblen Road, Humble
+
+Node ID: address:8:141 East Meadow Drive, Vail
+  Type: Address
+  address: 141 East Meadow Drive, Vail
+
+Node ID: yearbuilt:8:141 East Meadow Drive, Vail
+  Type: YearBuilt
+  yearBuilt: 2010
+
+Node ID: property:8:141 East Meadow Drive, Vail
+  Type: Property
+  locatedAt: -> address:8:141 East Meadow Drive, Vail
+  builtAt: -> yearbuilt:8:141 East Meadow Drive, Vail
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:141 East Meadow Drive, Vail
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Retail
+  usedProperty: -> property:8:141 East Meadow Drive, Vail
+
+Node ID: address:8:5720, 5750, 5758, 5760, 5770 and 5780 Centennial Center Boulevard, Las Vegas
+  Type: Address
+  address: 5720, 5750, 5758, 5760, 5770 and 5780 Centennial Center Boulevard, Las Vegas
+
+Node ID: yearbuilt:8:5720, 5750, 5758, 5760, 5770 and 5780 Centennial Center Boulevard, Las Vegas
+  Type: YearBuilt
+  yearBuilt: 2007
+
+Node ID: property:8:5720, 5750, 5758, 5760, 5770 and 5780 Centennial Center Boulevard, Las Vegas
+  Type: Property
+  locatedAt: -> address:8:5720, 5750, 5758, 5760, 5770 and 5780 Centennial Center Boulevard, Las Vegas
+  builtAt: -> yearbuilt:8:5720, 5750, 5758, 5760, 5770 and 5780 Centennial Center Boulevard, Las Vegas
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:5720, 5750, 5758, 5760, 5770 and 5780 Centennial Center Boulevard, Las Vegas
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Retail
+  usedProperty: -> property:8:5720, 5750, 5758, 5760, 5770 and 5780 Centennial Center Boulevard, Las Vegas
+
+Node ID: address:8:UnknownAddress
+  Type: Address
+  address: 
+
+Node ID: yearbuilt:8:UnknownAddress
+  Type: YearBuilt
+  yearBuilt: 
+
+Node ID: property:8:UnknownAddress
+  Type: Property
+  locatedAt: -> address:8:UnknownAddress
+  builtAt: -> yearbuilt:8:UnknownAddress
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:UnknownAddress
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:UnknownAddress
+
+Node ID: address:8:808 West 76th Street, Chicago
+  Type: Address
+  address: 808 West 76th Street, Chicago
+
+Node ID: yearbuilt:8:808 West 76th Street, Chicago
+  Type: YearBuilt
+  yearBuilt: 1925
+
+Node ID: property:8:808 West 76th Street, Chicago
+  Type: Property
+  locatedAt: -> address:8:808 West 76th Street, Chicago
+  builtAt: -> yearbuilt:8:808 West 76th Street, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:808 West 76th Street, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:808 West 76th Street, Chicago
+
+Node ID: address:8:6000 South Prairie Avenue, Chicago
+  Type: Address
+  address: 6000 South Prairie Avenue, Chicago
+
+Node ID: yearbuilt:8:6000 South Prairie Avenue, Chicago
+  Type: YearBuilt
+  yearBuilt: 1929
+
+Node ID: property:8:6000 South Prairie Avenue, Chicago
+  Type: Property
+  locatedAt: -> address:8:6000 South Prairie Avenue, Chicago
+  builtAt: -> yearbuilt:8:6000 South Prairie Avenue, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:6000 South Prairie Avenue, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:6000 South Prairie Avenue, Chicago
+
+Node ID: address:8:9244 South Saginaw Avenue, Chicago
+  Type: Address
+  address: 9244 South Saginaw Avenue, Chicago
+
+Node ID: yearbuilt:8:9244 South Saginaw Avenue, Chicago
+  Type: YearBuilt
+  yearBuilt: 1930
+
+Node ID: property:8:9244 South Saginaw Avenue, Chicago
+  Type: Property
+  locatedAt: -> address:8:9244 South Saginaw Avenue, Chicago
+  builtAt: -> yearbuilt:8:9244 South Saginaw Avenue, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:9244 South Saginaw Avenue, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:9244 South Saginaw Avenue, Chicago
+
+Node ID: address:8:4853 South Prairie Avenue, Chicago
+  Type: Address
+  address: 4853 South Prairie Avenue, Chicago
+
+Node ID: yearbuilt:8:4853 South Prairie Avenue, Chicago
+  Type: YearBuilt
+  yearBuilt: 1929
+
+Node ID: property:8:4853 South Prairie Avenue, Chicago
+  Type: Property
+  locatedAt: -> address:8:4853 South Prairie Avenue, Chicago
+  builtAt: -> yearbuilt:8:4853 South Prairie Avenue, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:4853 South Prairie Avenue, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:4853 South Prairie Avenue, Chicago
+
+Node ID: address:8:7348 South Dr. Martin Luther King Jr. Drive, Chicago
+  Type: Address
+  address: 7348 South Dr. Martin Luther King Jr. Drive, Chicago
+
+Node ID: yearbuilt:8:7348 South Dr. Martin Luther King Jr. Drive, Chicago
+  Type: YearBuilt
+  yearBuilt: 1927
+
+Node ID: property:8:7348 South Dr. Martin Luther King Jr. Drive, Chicago
+  Type: Property
+  locatedAt: -> address:8:7348 South Dr. Martin Luther King Jr. Drive, Chicago
+  builtAt: -> yearbuilt:8:7348 South Dr. Martin Luther King Jr. Drive, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:7348 South Dr. Martin Luther King Jr. Drive, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:7348 South Dr. Martin Luther King Jr. Drive, Chicago
+
+Node ID: address:8:7944 South Paulina Street, Chicago
+  Type: Address
+  address: 7944 South Paulina Street, Chicago
+
+Node ID: yearbuilt:8:7944 South Paulina Street, Chicago
+  Type: YearBuilt
+  yearBuilt: 1926
+
+Node ID: property:8:7944 South Paulina Street, Chicago
+  Type: Property
+  locatedAt: -> address:8:7944 South Paulina Street, Chicago
+  builtAt: -> yearbuilt:8:7944 South Paulina Street, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:7944 South Paulina Street, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:7944 South Paulina Street, Chicago
+
+Node ID: address:8:7801 South Saginaw Avenue, Chicago
+  Type: Address
+  address: 7801 South Saginaw Avenue, Chicago
+
+Node ID: yearbuilt:8:7801 South Saginaw Avenue, Chicago
+  Type: YearBuilt
+  yearBuilt: 1930
+
+Node ID: property:8:7801 South Saginaw Avenue, Chicago
+  Type: Property
+  locatedAt: -> address:8:7801 South Saginaw Avenue, Chicago
+  builtAt: -> yearbuilt:8:7801 South Saginaw Avenue, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:7801 South Saginaw Avenue, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:7801 South Saginaw Avenue, Chicago
+
+Node ID: address:8:8200 South Ingleside Avenue, Chicago
+  Type: Address
+  address: 8200 South Ingleside Avenue, Chicago
+
+Node ID: yearbuilt:8:8200 South Ingleside Avenue, Chicago
+  Type: YearBuilt
+  yearBuilt: 1927
+
+Node ID: property:8:8200 South Ingleside Avenue, Chicago
+  Type: Property
+  locatedAt: -> address:8:8200 South Ingleside Avenue, Chicago
+  builtAt: -> yearbuilt:8:8200 South Ingleside Avenue, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:8200 South Ingleside Avenue, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:8200 South Ingleside Avenue, Chicago
+
+Node ID: address:8:1514 West 77th Street, Chicago
+  Type: Address
+  address: 1514 West 77th Street, Chicago
+
+Node ID: yearbuilt:8:1514 West 77th Street, Chicago
+  Type: YearBuilt
+  yearBuilt: 1926
+
+Node ID: property:8:1514 West 77th Street, Chicago
+  Type: Property
+  locatedAt: -> address:8:1514 West 77th Street, Chicago
+  builtAt: -> yearbuilt:8:1514 West 77th Street, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:1514 West 77th Street, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:1514 West 77th Street, Chicago
+
+Node ID: address:8:8000 South Drexel Avenue, Chicago
+  Type: Address
+  address: 8000 South Drexel Avenue, Chicago
+
+Node ID: yearbuilt:8:8000 South Drexel Avenue, Chicago
+  Type: YearBuilt
+  yearBuilt: 1927
+
+Node ID: property:8:8000 South Drexel Avenue, Chicago
+  Type: Property
+  locatedAt: -> address:8:8000 South Drexel Avenue, Chicago
+  builtAt: -> yearbuilt:8:8000 South Drexel Avenue, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:8000 South Drexel Avenue, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:8000 South Drexel Avenue, Chicago
+
+Node ID: address:8:8001 South Marshfield Avenue, Chicago
+  Type: Address
+  address: 8001 South Marshfield Avenue, Chicago
+
+Node ID: yearbuilt:8:8001 South Marshfield Avenue, Chicago
+  Type: YearBuilt
+  yearBuilt: 1927
+
+Node ID: property:8:8001 South Marshfield Avenue, Chicago
+  Type: Property
+  locatedAt: -> address:8:8001 South Marshfield Avenue, Chicago
+  builtAt: -> yearbuilt:8:8001 South Marshfield Avenue, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:8001 South Marshfield Avenue, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:8001 South Marshfield Avenue, Chicago
+
+Node ID: address:8:1717 West 77th Street, Chicago
+  Type: Address
+  address: 1717 West 77th Street, Chicago
+
+Node ID: yearbuilt:8:1717 West 77th Street, Chicago
+  Type: YearBuilt
+  yearBuilt: 1926
+
+Node ID: property:8:1717 West 77th Street, Chicago
+  Type: Property
+  locatedAt: -> address:8:1717 West 77th Street, Chicago
+  builtAt: -> yearbuilt:8:1717 West 77th Street, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:1717 West 77th Street, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:1717 West 77th Street, Chicago
+
+Node ID: address:8:1815 West 77th Street, Chicago
+  Type: Address
+  address: 1815 West 77th Street, Chicago
+
+Node ID: yearbuilt:8:1815 West 77th Street, Chicago
+  Type: YearBuilt
+  yearBuilt: 1930
+
+Node ID: property:8:1815 West 77th Street, Chicago
+  Type: Property
+  locatedAt: -> address:8:1815 West 77th Street, Chicago
+  builtAt: -> yearbuilt:8:1815 West 77th Street, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:1815 West 77th Street, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:1815 West 77th Street, Chicago
+
+Node ID: address:8:1704 West 77th Street, Chicago
+  Type: Address
+  address: 1704 West 77th Street, Chicago
+
+Node ID: yearbuilt:8:1704 West 77th Street, Chicago
+  Type: YearBuilt
+  yearBuilt: 1927
+
+Node ID: property:8:1704 West 77th Street, Chicago
+  Type: Property
+  locatedAt: -> address:8:1704 West 77th Street, Chicago
+  builtAt: -> yearbuilt:8:1704 West 77th Street, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:1704 West 77th Street, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:1704 West 77th Street, Chicago
+
+Node ID: address:8:1738 West 77th Street, Chicago
+  Type: Address
+  address: 1738 West 77th Street, Chicago
+
+Node ID: yearbuilt:8:1738 West 77th Street, Chicago
+  Type: YearBuilt
+  yearBuilt: 1927
+
+Node ID: property:8:1738 West 77th Street, Chicago
+  Type: Property
+  locatedAt: -> address:8:1738 West 77th Street, Chicago
+  builtAt: -> yearbuilt:8:1738 West 77th Street, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:1738 West 77th Street, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:1738 West 77th Street, Chicago
+
+Node ID: address:8:8231 South Ellis Avenue, Chicago
+  Type: Address
+  address: 8231 South Ellis Avenue, Chicago
+
+Node ID: yearbuilt:8:8231 South Ellis Avenue, Chicago
+  Type: YearBuilt
+  yearBuilt: 1953
+
+Node ID: property:8:8231 South Ellis Avenue, Chicago
+  Type: Property
+  locatedAt: -> address:8:8231 South Ellis Avenue, Chicago
+  builtAt: -> yearbuilt:8:8231 South Ellis Avenue, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:8231 South Ellis Avenue, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:8231 South Ellis Avenue, Chicago
+
+Node ID: address:8:1735 West 79th Street, Chicago
+  Type: Address
+  address: 1735 West 79th Street, Chicago
+
+Node ID: yearbuilt:8:1735 West 79th Street, Chicago
+  Type: YearBuilt
+  yearBuilt: 1926
+
+Node ID: property:8:1735 West 79th Street, Chicago
+  Type: Property
+  locatedAt: -> address:8:1735 West 79th Street, Chicago
+  builtAt: -> yearbuilt:8:1735 West 79th Street, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:1735 West 79th Street, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:1735 West 79th Street, Chicago
+
+Node ID: address:8:1448 West 83rd Street, Chicago
+  Type: Address
+  address: 1448 West 83rd Street, Chicago
+
+Node ID: yearbuilt:8:1448 West 83rd Street, Chicago
+  Type: YearBuilt
+  yearBuilt: 1926
+
+Node ID: property:8:1448 West 83rd Street, Chicago
+  Type: Property
+  locatedAt: -> address:8:1448 West 83rd Street, Chicago
+  builtAt: -> yearbuilt:8:1448 West 83rd Street, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:1448 West 83rd Street, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:1448 West 83rd Street, Chicago
+
+Node ID: address:8:8155 South Maryland Avenue, Chicago
+  Type: Address
+  address: 8155 South Maryland Avenue, Chicago
+
+Node ID: yearbuilt:8:8155 South Maryland Avenue, Chicago
+  Type: YearBuilt
+  yearBuilt: 1930
+
+Node ID: property:8:8155 South Maryland Avenue, Chicago
+  Type: Property
+  locatedAt: -> address:8:8155 South Maryland Avenue, Chicago
+  builtAt: -> yearbuilt:8:8155 South Maryland Avenue, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:8155 South Maryland Avenue, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:8155 South Maryland Avenue, Chicago
+
+Node ID: address:8:8515 South Green Street, Chicago
+  Type: Address
+  address: 8515 South Green Street, Chicago
+
+Node ID: yearbuilt:8:8515 South Green Street, Chicago
+  Type: YearBuilt
+  yearBuilt: 1952
+
+Node ID: property:8:8515 South Green Street, Chicago
+  Type: Property
+  locatedAt: -> address:8:8515 South Green Street, Chicago
+  builtAt: -> yearbuilt:8:8515 South Green Street, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:8515 South Green Street, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:8515 South Green Street, Chicago
+
+Node ID: address:8:8001 South Carpenter Street, Chicago
+  Type: Address
+  address: 8001 South Carpenter Street, Chicago
+
+Node ID: yearbuilt:8:8001 South Carpenter Street, Chicago
+  Type: YearBuilt
+  yearBuilt: 1927
+
+Node ID: property:8:8001 South Carpenter Street, Chicago
+  Type: Property
+  locatedAt: -> address:8:8001 South Carpenter Street, Chicago
+  builtAt: -> yearbuilt:8:8001 South Carpenter Street, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:8001 South Carpenter Street, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:8001 South Carpenter Street, Chicago
+
+Node ID: address:8:7914 South Kingston Avenue, Chicago
+  Type: Address
+  address: 7914 South Kingston Avenue, Chicago
+
+Node ID: yearbuilt:8:7914 South Kingston Avenue, Chicago
+  Type: YearBuilt
+  yearBuilt: 1928
+
+Node ID: property:8:7914 South Kingston Avenue, Chicago
+  Type: Property
+  locatedAt: -> address:8:7914 South Kingston Avenue, Chicago
+  builtAt: -> yearbuilt:8:7914 South Kingston Avenue, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:7914 South Kingston Avenue, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:7914 South Kingston Avenue, Chicago
+
+Node ID: address:8:8255 South Maryland Avenue, Chicago
+  Type: Address
+  address: 8255 South Maryland Avenue, Chicago
+
+Node ID: yearbuilt:8:8255 South Maryland Avenue, Chicago
+  Type: YearBuilt
+  yearBuilt: 1951
+
+Node ID: property:8:8255 South Maryland Avenue, Chicago
+  Type: Property
+  locatedAt: -> address:8:8255 South Maryland Avenue, Chicago
+  builtAt: -> yearbuilt:8:8255 South Maryland Avenue, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:8255 South Maryland Avenue, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:8255 South Maryland Avenue, Chicago
+
+Node ID: address:8:8514 South Crandon Avenue, Chicago
+  Type: Address
+  address: 8514 South Crandon Avenue, Chicago
+
+Node ID: yearbuilt:8:8514 South Crandon Avenue, Chicago
+  Type: YearBuilt
+  yearBuilt: 1930
+
+Node ID: property:8:8514 South Crandon Avenue, Chicago
+  Type: Property
+  locatedAt: -> address:8:8514 South Crandon Avenue, Chicago
+  builtAt: -> yearbuilt:8:8514 South Crandon Avenue, Chicago
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:8514 South Crandon Avenue, Chicago
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:8514 South Crandon Avenue, Chicago
+
+Node ID: address:8:3010-3016 West Charleston Boulevard, Las Vegas
+  Type: Address
+  address: 3010-3016 West Charleston Boulevard, Las Vegas
+
+Node ID: yearbuilt:8:3010-3016 West Charleston Boulevard, Las Vegas
+  Type: YearBuilt
+  yearBuilt: 1996, 1998
+
+Node ID: property:8:3010-3016 West Charleston Boulevard, Las Vegas
+  Type: Property
+  locatedAt: -> address:8:3010-3016 West Charleston Boulevard, Las Vegas
+  builtAt: -> yearbuilt:8:3010-3016 West Charleston Boulevard, Las Vegas
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:3010-3016 West Charleston Boulevard, Las Vegas
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:3010-3016 West Charleston Boulevard, Las Vegas
+
+Node ID: address:8:1 River Place, Wilmington
+  Type: Address
+  address: 1 River Place, Wilmington
+
+Node ID: yearbuilt:8:1 River Place, Wilmington
+  Type: YearBuilt
+  yearBuilt: 2004
+
+Node ID: property:8:1 River Place, Wilmington
+  Type: Property
+  locatedAt: -> address:8:1 River Place, Wilmington
+  builtAt: -> yearbuilt:8:1 River Place, Wilmington
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:1 River Place, Wilmington
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:1 River Place, Wilmington
+
+Node ID: address:8:210, 214 and 218-224 Alexander Street and 330-350 Monroe Avenue, Rochester
+  Type: Address
+  address: 210, 214 and 218-224 Alexander Street and 330-350 Monroe Avenue, Rochester
+
+Node ID: yearbuilt:8:210, 214 and 218-224 Alexander Street and 330-350 Monroe Avenue, Rochester
+  Type: YearBuilt
+  yearBuilt: 1969, 1992, 1993, 1998, 2009, 2010
+
+Node ID: property:8:210, 214 and 218-224 Alexander Street and 330-350 Monroe Avenue, Rochester
+  Type: Property
+  locatedAt: -> address:8:210, 214 and 218-224 Alexander Street and 330-350 Monroe Avenue, Rochester
+  builtAt: -> yearbuilt:8:210, 214 and 218-224 Alexander Street and 330-350 Monroe Avenue, Rochester
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:210, 214 and 218-224 Alexander Street and 330-350 Monroe Avenue, Rochester
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:210, 214 and 218-224 Alexander Street and 330-350 Monroe Avenue, Rochester
+
+Node ID: address:8:UnknownAddress
+  Type: Address
+  address: 
+
+Node ID: yearbuilt:8:UnknownAddress
+  Type: YearBuilt
+  yearBuilt: 1985
+
+Node ID: property:8:UnknownAddress
+  Type: Property
+  locatedAt: -> address:8:UnknownAddress
+  builtAt: -> yearbuilt:8:UnknownAddress
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:UnknownAddress
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Multifamily
+  usedProperty: -> property:8:UnknownAddress
+
+Node ID: address:8:41299 Heathmoore Court, Canton
+  Type: Address
+  address: 41299 Heathmoore Court, Canton
+
+Node ID: yearbuilt:8:41299 Heathmoore Court, Canton
+  Type: YearBuilt
+  yearBuilt: 1985
+
+Node ID: property:8:41299 Heathmoore Court, Canton
+  Type: Property
+  locatedAt: -> address:8:41299 Heathmoore Court, Canton
+  builtAt: -> yearbuilt:8:41299 Heathmoore Court, Canton
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:41299 Heathmoore Court, Canton
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Multifamily
+  usedProperty: -> property:8:41299 Heathmoore Court, Canton
+
+Node ID: address:8:6 Roanoke Lane, Rochester Hills
+  Type: Address
+  address: 6 Roanoke Lane, Rochester Hills
+
+Node ID: yearbuilt:8:6 Roanoke Lane, Rochester Hills
+  Type: YearBuilt
+  yearBuilt: 1985
+
+Node ID: property:8:6 Roanoke Lane, Rochester Hills
+  Type: Property
+  locatedAt: -> address:8:6 Roanoke Lane, Rochester Hills
+  builtAt: -> yearbuilt:8:6 Roanoke Lane, Rochester Hills
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:6 Roanoke Lane, Rochester Hills
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Multifamily
+  usedProperty: -> property:8:6 Roanoke Lane, Rochester Hills
+
+Node ID: address:8:27010 Wentworth Drive, Roseville
+  Type: Address
+  address: 27010 Wentworth Drive, Roseville
+
+Node ID: yearbuilt:8:27010 Wentworth Drive, Roseville
+  Type: YearBuilt
+  yearBuilt: 1985
+
+Node ID: property:8:27010 Wentworth Drive, Roseville
+  Type: Property
+  locatedAt: -> address:8:27010 Wentworth Drive, Roseville
+  builtAt: -> yearbuilt:8:27010 Wentworth Drive, Roseville
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:27010 Wentworth Drive, Roseville
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Multifamily
+  usedProperty: -> property:8:27010 Wentworth Drive, Roseville
+
+Node ID: address:8:UnknownAddress
+  Type: Address
+  address: 
+
+Node ID: yearbuilt:8:UnknownAddress
+  Type: YearBuilt
+  yearBuilt: 
+
+Node ID: property:8:UnknownAddress
+  Type: Property
+  locatedAt: -> address:8:UnknownAddress
+  builtAt: -> yearbuilt:8:UnknownAddress
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:UnknownAddress
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Industrial
+  usedProperty: -> property:8:UnknownAddress
+
+Node ID: address:8:6301 North Broadway, St. Louis
+  Type: Address
+  address: 6301 North Broadway, St. Louis
+
+Node ID: yearbuilt:8:6301 North Broadway, St. Louis
+  Type: YearBuilt
+  yearBuilt: 1954
+
+Node ID: property:8:6301 North Broadway, St. Louis
+  Type: Property
+  locatedAt: -> address:8:6301 North Broadway, St. Louis
+  builtAt: -> yearbuilt:8:6301 North Broadway, St. Louis
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:6301 North Broadway, St. Louis
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Industrial
+  usedProperty: -> property:8:6301 North Broadway, St. Louis
+
+Node ID: address:8:7714 Commercial Drive, Troy
+  Type: Address
+  address: 7714 Commercial Drive, Troy
+
+Node ID: yearbuilt:8:7714 Commercial Drive, Troy
+  Type: YearBuilt
+  yearBuilt: 2001
+
+Node ID: property:8:7714 Commercial Drive, Troy
+  Type: Property
+  locatedAt: -> address:8:7714 Commercial Drive, Troy
+  builtAt: -> yearbuilt:8:7714 Commercial Drive, Troy
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:7714 Commercial Drive, Troy
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Industrial
+  usedProperty: -> property:8:7714 Commercial Drive, Troy
+
+Node ID: address:8:10405 North Centerway Drive, Peoria
+  Type: Address
+  address: 10405 North Centerway Drive, Peoria
+
+Node ID: yearbuilt:8:10405 North Centerway Drive, Peoria
+  Type: YearBuilt
+  yearBuilt: 2016
+
+Node ID: property:8:10405 North Centerway Drive, Peoria
+  Type: Property
+  locatedAt: -> address:8:10405 North Centerway Drive, Peoria
+  builtAt: -> yearbuilt:8:10405 North Centerway Drive, Peoria
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:10405 North Centerway Drive, Peoria
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Retail
+  usedProperty: -> property:8:10405 North Centerway Drive, Peoria
+
+Node ID: address:8:7632 Southwest Durham Road, Tigard
+  Type: Address
+  address: 7632 Southwest Durham Road, Tigard
+
+Node ID: yearbuilt:8:7632 Southwest Durham Road, Tigard
+  Type: YearBuilt
+  yearBuilt: 2001
+
+Node ID: property:8:7632 Southwest Durham Road, Tigard
+  Type: Property
+  locatedAt: -> address:8:7632 Southwest Durham Road, Tigard
+  builtAt: -> yearbuilt:8:7632 Southwest Durham Road, Tigard
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:7632 Southwest Durham Road, Tigard
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:7632 Southwest Durham Road, Tigard
+
+Node ID: address:8:11411 Southern Highlands Parkway, Las Vegas
+  Type: Address
+  address: 11411 Southern Highlands Parkway, Las Vegas
+
+Node ID: yearbuilt:8:11411 Southern Highlands Parkway, Las Vegas
+  Type: YearBuilt
+  yearBuilt: 2004
+
+Node ID: property:8:11411 Southern Highlands Parkway, Las Vegas
+  Type: Property
+  locatedAt: -> address:8:11411 Southern Highlands Parkway, Las Vegas
+  builtAt: -> yearbuilt:8:11411 Southern Highlands Parkway, Las Vegas
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:11411 Southern Highlands Parkway, Las Vegas
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:11411 Southern Highlands Parkway, Las Vegas
+
+Node ID: address:8:11750 Fair Oaks Mall, Fairfax
+  Type: Address
+  address: 11750 Fair Oaks Mall, Fairfax
+
+Node ID: yearbuilt:8:11750 Fair Oaks Mall, Fairfax
+  Type: YearBuilt
+  yearBuilt: 1980
+
+Node ID: property:8:11750 Fair Oaks Mall, Fairfax
+  Type: Property
+  locatedAt: -> address:8:11750 Fair Oaks Mall, Fairfax
+  builtAt: -> yearbuilt:8:11750 Fair Oaks Mall, Fairfax
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:11750 Fair Oaks Mall, Fairfax
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Retail
+  usedProperty: -> property:8:11750 Fair Oaks Mall, Fairfax
+
+Node ID: address:8:UnknownAddress
+  Type: Address
+  address: 
+
+Node ID: yearbuilt:8:UnknownAddress
+  Type: YearBuilt
+  yearBuilt: 
+
+Node ID: property:8:UnknownAddress
+  Type: Property
+  locatedAt: -> address:8:UnknownAddress
+  builtAt: -> yearbuilt:8:UnknownAddress
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:UnknownAddress
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Retail
+  usedProperty: -> property:8:UnknownAddress
+
+Node ID: address:8:1501 East Algonquin Road, Algonquin
+  Type: Address
+  address: 1501 East Algonquin Road, Algonquin
+
+Node ID: yearbuilt:8:1501 East Algonquin Road, Algonquin
+  Type: YearBuilt
+  yearBuilt: 2006
+
+Node ID: property:8:1501 East Algonquin Road, Algonquin
+  Type: Property
+  locatedAt: -> address:8:1501 East Algonquin Road, Algonquin
+  builtAt: -> yearbuilt:8:1501 East Algonquin Road, Algonquin
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:1501 East Algonquin Road, Algonquin
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Retail
+  usedProperty: -> property:8:1501 East Algonquin Road, Algonquin
+
+Node ID: address:8:10420 Coors Bypass Northwest, Albuquerque
+  Type: Address
+  address: 10420 Coors Bypass Northwest, Albuquerque
+
+Node ID: yearbuilt:8:10420 Coors Bypass Northwest, Albuquerque
+  Type: YearBuilt
+  yearBuilt: 2000
+
+Node ID: property:8:10420 Coors Bypass Northwest, Albuquerque
+  Type: Property
+  locatedAt: -> address:8:10420 Coors Bypass Northwest, Albuquerque
+  builtAt: -> yearbuilt:8:10420 Coors Bypass Northwest, Albuquerque
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:10420 Coors Bypass Northwest, Albuquerque
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Retail
+  usedProperty: -> property:8:10420 Coors Bypass Northwest, Albuquerque
+
+Node ID: address:8:1948-1960 Old Fort Parkway, Murfreesboro
+  Type: Address
+  address: 1948-1960 Old Fort Parkway, Murfreesboro
+
+Node ID: yearbuilt:8:1948-1960 Old Fort Parkway, Murfreesboro
+  Type: YearBuilt
+  yearBuilt: 1996-1999
+
+Node ID: property:8:1948-1960 Old Fort Parkway, Murfreesboro
+  Type: Property
+  locatedAt: -> address:8:1948-1960 Old Fort Parkway, Murfreesboro
+  builtAt: -> yearbuilt:8:1948-1960 Old Fort Parkway, Murfreesboro
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:1948-1960 Old Fort Parkway, Murfreesboro
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Retail
+  usedProperty: -> property:8:1948-1960 Old Fort Parkway, Murfreesboro
+
+Node ID: address:8:836 Upward Road, Flat Rock
+  Type: Address
+  address: 836 Upward Road, Flat Rock
+
+Node ID: yearbuilt:8:836 Upward Road, Flat Rock
+  Type: YearBuilt
+  yearBuilt: 2017
+
+Node ID: property:8:836 Upward Road, Flat Rock
+  Type: Property
+  locatedAt: -> address:8:836 Upward Road, Flat Rock
+  builtAt: -> yearbuilt:8:836 Upward Road, Flat Rock
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:836 Upward Road, Flat Rock
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Lodging
+  usedProperty: -> property:8:836 Upward Road, Flat Rock
+
+Node ID: address:8:3111 Old Sterlington Road, Monroe
+  Type: Address
+  address: 3111 Old Sterlington Road, Monroe
+
+Node ID: yearbuilt:8:3111 Old Sterlington Road, Monroe
+  Type: YearBuilt
+  yearBuilt: 1972
+
+Node ID: property:8:3111 Old Sterlington Road, Monroe
+  Type: Property
+  locatedAt: -> address:8:3111 Old Sterlington Road, Monroe
+  builtAt: -> yearbuilt:8:3111 Old Sterlington Road, Monroe
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:3111 Old Sterlington Road, Monroe
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Securities
+  usedProperty: -> property:8:3111 Old Sterlington Road, Monroe
+
+Node ID: address:8:100 Hampton Drive, South Pittsburg
+  Type: Address
+  address: 100 Hampton Drive, South Pittsburg
+
+Node ID: yearbuilt:8:100 Hampton Drive, South Pittsburg
+  Type: YearBuilt
+  yearBuilt: 2013
+
+Node ID: property:8:100 Hampton Drive, South Pittsburg
+  Type: Property
+  locatedAt: -> address:8:100 Hampton Drive, South Pittsburg
+  builtAt: -> yearbuilt:8:100 Hampton Drive, South Pittsburg
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:100 Hampton Drive, South Pittsburg
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Lodging
+  usedProperty: -> property:8:100 Hampton Drive, South Pittsburg
+
+Node ID: address:8:2420 and 2440 West Arrow Route, Upland
+  Type: Address
+  address: 2420 and 2440 West Arrow Route, Upland
+
+Node ID: yearbuilt:8:2420 and 2440 West Arrow Route, Upland
+  Type: YearBuilt
+  yearBuilt: 2009
+
+Node ID: property:8:2420 and 2440 West Arrow Route, Upland
+  Type: Property
+  locatedAt: -> address:8:2420 and 2440 West Arrow Route, Upland
+  builtAt: -> yearbuilt:8:2420 and 2440 West Arrow Route, Upland
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:2420 and 2440 West Arrow Route, Upland
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Retail
+  usedProperty: -> property:8:2420 and 2440 West Arrow Route, Upland
+
+Node ID: address:8:490 Eagles Landing Parkway, Stockbridge
+  Type: Address
+  address: 490 Eagles Landing Parkway, Stockbridge
+
+Node ID: yearbuilt:8:490 Eagles Landing Parkway, Stockbridge
+  Type: YearBuilt
+  yearBuilt: 2000
+
+Node ID: property:8:490 Eagles Landing Parkway, Stockbridge
+  Type: Property
+  locatedAt: -> address:8:490 Eagles Landing Parkway, Stockbridge
+  builtAt: -> yearbuilt:8:490 Eagles Landing Parkway, Stockbridge
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:490 Eagles Landing Parkway, Stockbridge
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Self Storage
+  usedProperty: -> property:8:490 Eagles Landing Parkway, Stockbridge
+
+Node ID: address:8:970 Rittenhouse Road, Audubon
+  Type: Address
+  address: 970 Rittenhouse Road, Audubon
+
+Node ID: yearbuilt:8:970 Rittenhouse Road, Audubon
+  Type: YearBuilt
+  yearBuilt: 1974
+
+Node ID: property:8:970 Rittenhouse Road, Audubon
+  Type: Property
+  locatedAt: -> address:8:970 Rittenhouse Road, Audubon
+  builtAt: -> yearbuilt:8:970 Rittenhouse Road, Audubon
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:970 Rittenhouse Road, Audubon
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Industrial
+  usedProperty: -> property:8:970 Rittenhouse Road, Audubon
+
+Node ID: address:8:9333 Atlantic Boulevard, Jacksonville
+  Type: Address
+  address: 9333 Atlantic Boulevard, Jacksonville
+
+Node ID: yearbuilt:8:9333 Atlantic Boulevard, Jacksonville
+  Type: YearBuilt
+  yearBuilt: 2004
+
+Node ID: property:8:9333 Atlantic Boulevard, Jacksonville
+  Type: Property
+  locatedAt: -> address:8:9333 Atlantic Boulevard, Jacksonville
+  builtAt: -> yearbuilt:8:9333 Atlantic Boulevard, Jacksonville
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:9333 Atlantic Boulevard, Jacksonville
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Retail
+  usedProperty: -> property:8:9333 Atlantic Boulevard, Jacksonville
+
+Node ID: address:8:3023 Unicorn Road, Bakersfield
+  Type: Address
+  address: 3023 Unicorn Road, Bakersfield
+
+Node ID: yearbuilt:8:3023 Unicorn Road, Bakersfield
+  Type: YearBuilt
+  yearBuilt: 2005
+
+Node ID: property:8:3023 Unicorn Road, Bakersfield
+  Type: Property
+  locatedAt: -> address:8:3023 Unicorn Road, Bakersfield
+  builtAt: -> yearbuilt:8:3023 Unicorn Road, Bakersfield
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:3023 Unicorn Road, Bakersfield
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Self Storage
+  usedProperty: -> property:8:3023 Unicorn Road, Bakersfield
+
+Node ID: address:8:20691 IH-10, Vidor
+  Type: Address
+  address: 20691 IH-10, Vidor
+
+Node ID: yearbuilt:8:20691 IH-10, Vidor
+  Type: YearBuilt
+  yearBuilt: 2009
+
+Node ID: property:8:20691 IH-10, Vidor
+  Type: Property
+  locatedAt: -> address:8:20691 IH-10, Vidor
+  builtAt: -> yearbuilt:8:20691 IH-10, Vidor
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:20691 IH-10, Vidor
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Lodging
+  usedProperty: -> property:8:20691 IH-10, Vidor
+
+Node ID: address:8:5630 Shed Road, Bossier City
+  Type: Address
+  address: 5630 Shed Road, Bossier City
+
+Node ID: yearbuilt:8:5630 Shed Road, Bossier City
+  Type: YearBuilt
+  yearBuilt: 2015
+
+Node ID: property:8:5630 Shed Road, Bossier City
+  Type: Property
+  locatedAt: -> address:8:5630 Shed Road, Bossier City
+  builtAt: -> yearbuilt:8:5630 Shed Road, Bossier City
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:5630 Shed Road, Bossier City
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Self Storage
+  usedProperty: -> property:8:5630 Shed Road, Bossier City
+
+Node ID: address:8:122 Lincoln Boulevard, Venice
+  Type: Address
+  address: 122 Lincoln Boulevard, Venice
+
+Node ID: yearbuilt:8:122 Lincoln Boulevard, Venice
+  Type: YearBuilt
+  yearBuilt: 1981
+
+Node ID: property:8:122 Lincoln Boulevard, Venice
+  Type: Property
+  locatedAt: -> address:8:122 Lincoln Boulevard, Venice
+  builtAt: -> yearbuilt:8:122 Lincoln Boulevard, Venice
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:122 Lincoln Boulevard, Venice
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Office
+  usedProperty: -> property:8:122 Lincoln Boulevard, Venice
+
+Node ID: address:8:231 Raymond Hill Road, Newnan
+  Type: Address
+  address: 231 Raymond Hill Road, Newnan
+
+Node ID: yearbuilt:8:231 Raymond Hill Road, Newnan
+  Type: YearBuilt
+  yearBuilt: 2002
+
+Node ID: property:8:231 Raymond Hill Road, Newnan
+  Type: Property
+  locatedAt: -> address:8:231 Raymond Hill Road, Newnan
+  builtAt: -> yearbuilt:8:231 Raymond Hill Road, Newnan
+  partOfDeal: -> deal:8
+
+Node ID: trusteeproptype:8:231 Raymond Hill Road, Newnan
+  Type: TrusteePropTypeFull
+  trusteePropTypeFull: Self Storage
+  usedProperty: -> property:8:231 Raymond Hill Road, Newnan
+
+Node ID: deal:8
+  Type: Deal
+  dealId: 8
+  bloomberg: BBCMS 2018-C2
+  hasSecurity: -> cusip:05491UBE7
+  hasProperty:
+    - -> property:8:175 West Cliff Drive, Santa Cruz
+    - -> property:8:132 Christiana Mall, Newark
+    - -> property:8:UnknownAddress
+    - -> property:8:211, 251 and 281 River Oaks Parkway, San Jose
+    - -> property:8:915 Guardian Way, Allen
+    - -> property:8:381 and 385 Marshall Avenue, St. Louis
+    - -> property:8:2 Tesseneer Drive, Highland Heights
+    - -> property:8:901 State Street, Erie
+    - -> property:8:6401 18th Avenue North, Great Falls
+    - -> property:8:13400 West Highway 80 East, Odessa
+    - -> property:8:UnknownAddress
+    - -> property:8:1850, 1870, 1910 and 1930 West Rio Salado Parkway, Tempe
+    - -> property:8:8501 East Raintree Drive, Scottsdale
+    - -> property:8:UnknownAddress
+    - -> property:8:2520 Gulf Freeway South, League City
+    - -> property:8:8800 State Highway 121, McKinney
+    - -> property:8:5730 Highway 6, Missouri City
+    - -> property:8:3001, 3155, 3221 and 3331 West Big Beaver Road and 2855 Coolidge Highway, Troy
+    - -> property:8:301-477 North Azusa Avenue, West Covina
+    - -> property:8:600 Commerce Street, Fort Worth
+    - -> property:8:5665 East Mayo Boulevard, Phoenix
+    - -> property:8:2161-2250 Newmarket Parkway Southeast, Marietta
+    - -> property:8:UnknownAddress
+    - -> property:8:3001 Atlantic Avenue, Virginia Beach
+    - -> property:8:3315 Atlantic Avenue, Virginia Beach
+    - -> property:8:1120, 1140 and 1160 Enterprise Way, Sunnyvale
+    - -> property:8:UnknownAddress
+    - -> property:8:100-700 White Clay Center Drive, Newark
+    - -> property:8:256-263 Chapman Road, Newark
+    - -> property:8:2200, 2400 and 2600 Ansys Drive, Canonsburg
+    - -> property:8:222 RHL Boulevard, Charleston
+    - -> property:8:1100 Discovery Way, Sunnyvale
+    - -> property:8:212 Elks Point Road, Zephyr Cove
+    - -> property:8:UnknownAddress
+    - -> property:8:2851-2951 South Council Road, Oklahoma City
+    - -> property:8:16100 Dillard Drive, Jersey Village
+    - -> property:8:16675, 16681, 17711 and 17715 Telge Road, Cypress
+    - -> property:8:11050 West Little York Road, Houston
+    - -> property:8:1902 and 1914 South Houston Avenue, Humble
+    - -> property:8:5816 Hamblen Road, Humble
+    - -> property:8:141 East Meadow Drive, Vail
+    - -> property:8:5720, 5750, 5758, 5760, 5770 and 5780 Centennial Center Boulevard, Las Vegas
+    - -> property:8:UnknownAddress
+    - -> property:8:808 West 76th Street, Chicago
+    - -> property:8:6000 South Prairie Avenue, Chicago
+    - -> property:8:9244 South Saginaw Avenue, Chicago
+    - -> property:8:4853 South Prairie Avenue, Chicago
+    - -> property:8:7348 South Dr. Martin Luther King Jr. Drive, Chicago
+    - -> property:8:7944 South Paulina Street, Chicago
+    - -> property:8:7801 South Saginaw Avenue, Chicago
+    - -> property:8:8200 South Ingleside Avenue, Chicago
+    - -> property:8:1514 West 77th Street, Chicago
+    - -> property:8:8000 South Drexel Avenue, Chicago
+    - -> property:8:8001 South Marshfield Avenue, Chicago
+    - -> property:8:1717 West 77th Street, Chicago
+    - -> property:8:1815 West 77th Street, Chicago
+    - -> property:8:1704 West 77th Street, Chicago
+    - -> property:8:1738 West 77th Street, Chicago
+    - -> property:8:8231 South Ellis Avenue, Chicago
+    - -> property:8:1735 West 79th Street, Chicago
+    - -> property:8:1448 West 83rd Street, Chicago
+    - -> property:8:8155 South Maryland Avenue, Chicago
+    - -> property:8:8515 South Green Street, Chicago
+    - -> property:8:8001 South Carpenter Street, Chicago
+    - -> property:8:7914 South Kingston Avenue, Chicago
+    - -> property:8:8255 South Maryland Avenue, Chicago
+    - -> property:8:8514 South Crandon Avenue, Chicago
+    - -> property:8:3010-3016 West Charleston Boulevard, Las Vegas
+    - -> property:8:1 River Place, Wilmington
+    - -> property:8:210, 214 and 218-224 Alexander Street and 330-350 Monroe Avenue, Rochester
+    - -> property:8:UnknownAddress
+    - -> property:8:41299 Heathmoore Court, Canton
+    - -> property:8:6 Roanoke Lane, Rochester Hills
+    - -> property:8:27010 Wentworth Drive, Roseville
+    - -> property:8:UnknownAddress
+    - -> property:8:6301 North Broadway, St. Louis
+    - -> property:8:7714 Commercial Drive, Troy
+    - -> property:8:10405 North Centerway Drive, Peoria
+    - -> property:8:7632 Southwest Durham Road, Tigard
+    - -> property:8:11411 Southern Highlands Parkway, Las Vegas
+    - -> property:8:11750 Fair Oaks Mall, Fairfax
+    - -> property:8:UnknownAddress
+    - -> property:8:1501 East Algonquin Road, Algonquin
+    - -> property:8:10420 Coors Bypass Northwest, Albuquerque
+    - -> property:8:1948-1960 Old Fort Parkway, Murfreesboro
+    - -> property:8:836 Upward Road, Flat Rock
+    - -> property:8:3111 Old Sterlington Road, Monroe
+    - -> property:8:100 Hampton Drive, South Pittsburg
+    - -> property:8:2420 and 2440 West Arrow Route, Upland
+    - -> property:8:490 Eagles Landing Parkway, Stockbridge
+    - -> property:8:970 Rittenhouse Road, Audubon
+    - -> property:8:9333 Atlantic Boulevard, Jacksonville
+    - -> property:8:3023 Unicorn Road, Bakersfield
+    - -> property:8:20691 IH-10, Vidor
+    - -> property:8:5630 Shed Road, Bossier City
+    - -> property:8:122 Lincoln Boulevard, Venice
+    - -> property:8:231 Raymond Hill Road, Newnan
+
+Node ID: cusip:05491UBE7
+  Type: Security
+  cusip: 05491UBE7
