@@ -14,12 +14,78 @@ class DealLister:
         self.driver.close()
 
     def list_deals(self):
-        with self.driver.session() as session:
-            result = session.run("MATCH (d:Deal) RETURN d")
-            print("Deals in the database:")
+        """List all deals in the database with their properties and addresses."""
+        with self.driver.session(database=self.database) as session:
+            query = """
+                MATCH (d:Deal)
+                OPTIONAL MATCH (d)-[r:HASPROPERTY]->(p:Property)
+                OPTIONAL MATCH (p)-[:locatedAt]->(a)
+                RETURN d, collect(DISTINCT {property: p, address: a}) as properties
+            """
+            result = session.run(query)
+            
             for record in result:
                 deal = record["d"]
-                print(deal)
+                properties = record["properties"]
+                
+                print("\nDeal Properties:")
+                for key, value in deal.items():
+                    print(f"  {key}: {value}")
+                
+                if properties and properties[0]["property"] is not None:
+                    print("\nProperties and Addresses:")
+                    for prop in properties:
+                        if prop["property"] and prop["address"]:
+                            print(f"  Property ID: {prop['property']['id']}")
+                            print(f"    Address: {prop['address']['id']}")
+                        elif prop["property"]:
+                            print(f"  Property ID: {prop['property']['id']}")
+                            print("    Address: Not specified")
+        print("\n=== Debug Information ===")
+        print(f"Database: {self.database}")
+        
+        try:
+            with self.driver.session(database=self.database) as session:
+                # First check if we have any nodes at all
+                result = session.run("MATCH (n) RETURN count(n) as total_nodes")
+                total_nodes = result.single()["total_nodes"]
+                print(f"Total nodes in database: {total_nodes}")
+                
+                # Check specifically for Deal nodes
+                result = session.run("MATCH (d:Deal) RETURN count(d) as deal_count")
+                deal_count = result.single()["deal_count"]
+                print(f"Number of Deal nodes: {deal_count}")
+                
+                if deal_count == 0:
+                    print("No Deal nodes found in the database.")
+                    return
+                
+                # Get all deals with their properties
+                print("\nFetching Deal information:")
+                result = session.run("""
+                    MATCH (d:Deal)
+                    OPTIONAL MATCH (d)-[r]->(related)
+                    RETURN d, collect(type(r)) as relationships, collect(related) as related_nodes
+                """)
+                
+                for record in result:
+                    deal = record["d"]
+                    relationships = record["relationships"]
+                    related_nodes = record["related_nodes"]
+                    
+                    print("\nDeal Properties:")
+                    for key, value in deal.items():
+                        print(f"  {key}: {value}")
+                    
+                    if relationships:
+                        print("Related Information:")
+                        for rel, node in zip(relationships, related_nodes):
+                            if node is not None:
+                                print(f"  -{rel}-> {node.labels} {dict(node.items())}")
+                
+        except Exception as e:
+            print(f"Error during deal listing: {str(e)}")
+            raise
 
     def clean_database(self, database=None):
         """Remove all nodes and relationships from the database."""
@@ -39,13 +105,29 @@ class DealLister:
         return db_names
 
     def create_database(self, db_name):
-        """Create a new database with the given name."""
+        """Create a new database with the given name if it doesn't already exist."""
+        # First check if the database already exists
+        existing_dbs = self.list_databases()
+        if db_name in existing_dbs:
+            print(f"Database '{db_name}' already exists. Skipping creation.")
+            return
+            
+        # If not, create the database
         with self.driver.session(database="system") as session:
             try:
                 session.run(f"CREATE DATABASE `{db_name}`")
                 print(f"Database '{db_name}' created successfully.")
             except Exception as e:
                 print(f"Failed to create database '{db_name}': {e}")
+
+    def delete_database(self, db_name):
+        """Delete a database with the given name."""
+        with self.driver.session(database="system") as session:
+            try:
+                session.run(f"DROP DATABASE `{db_name}` IF EXISTS")
+                print(f"Database '{db_name}' deleted (if it existed).")
+            except Exception as e:
+                print(f"Failed to delete database '{db_name}': {e}")
 
     def execute_cypher_file(self, file_path, database=None):
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -138,18 +220,61 @@ class DealLister:
                 print(f"No Bloomberg name found for deal ID '{deal_id}'.")
                 return None
 
+    def search_deal_id_by_address(self, address):
+        """Search for deal IDs by address and return a list of matching deal IDs."""
+        with self.driver.session(database=self.database) as session:
+            query = (
+                "MATCH (d:Deal)-[:HASPROPERTY]->(p:Property)-[:LOCATEDAT]->(a) "
+                "WHERE a.id = $address "
+                "RETURN d.id AS deal_id"
+            )
+            print(query)
+            result = session.run(query,address=address)
+            deal_ids = [record["deal_id"] for record in result]
+            if deal_ids:
+                print(f"Deal IDs found for address '{address}': {deal_ids}")
+            else:
+                print(f"No deals found for address '{address}'.")
+            return deal_ids
+
+    def show_address_by_property_id(self, property_id):
+        """Show the address for a given property ID."""
+        with self.driver.session(database=self.database) as session:
+            query = (
+                "MATCH (p {id: $property_id}) RETURN p.address AS address"
+            )
+            result = session.run(query, property_id=property_id)
+            record = result.single()
+            if record and record["address"]:
+                print(f"Address for property ID '{property_id}': {record['address']}")
+                return record["address"]
+            else:
+                print(f"No address found for property ID '{property_id}'.")
+                return None
+
 if __name__ == "__main__":
     lister = DealLister(NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD,'gi-cmbs')
-    lister.execute_cypher_file('/Users/jackyfox/Documents/CMBS_Database/cmbs_graph_05591XAE1.cypher',database='gi-cmbs')
-    # lister.execute_cypher_file('/Users/jackyfox/Documents/CMBS_Database/cmbs_graph_05491UBE7.cypher',database='gi-cmbs')
-
+    lister.create_database("gi-cmbs")
+    lister.execute_cypher_file('/Users/jackyfox/PycharmProjects/TWGglobal_fc/CMBS_Database/cmbs_graph_05591XAE1.cypher',database='gi-cmbs')
+    # lister.execute_cypher_file('./cmbs_graph_05491UBE7.cypher',database='gi-cmbs')
     try:
         lister.list_deals()
-        lister.list_properties_by_deal_id("deal:14")
-        lister.list_databases()
-        lister.get_bloomberg_name_by_deal_id("deal:14")
-        # lister.create_database("gi-cmbs")
-        # lister.clean_database()
+        # lister.list_properties_by_deal_id("deal:14")
+        # lister.list_databases()
+        # lister.get_bloomberg_name_by_deal_id("deal:14")
+        # lister.show_address_by_property_id("property:14:9218 Balcones Club Drive, Austin, TX")
+        
+        # Search for deals by an address
+        address = "9600 Forest Lane, Dallas, TX"  # Replace with your actual address
+        deal_ids = lister.search_deal_id_by_address(address)
+        
+        # The function will automatically print the results, but you can also process the returned deal_ids
+        if deal_ids:
+            print("Found the following deals:")
+            for deal_id in deal_ids:
+                print(f"Deal ID: {deal_id}")
+        
+
     finally:
         lister.close()
 

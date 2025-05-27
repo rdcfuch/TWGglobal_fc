@@ -408,7 +408,7 @@ class CMBSDatabaseHandler:
                     print(f"*********address_for_id: {address_for_id}")
                     # a=input("Press any key to continue...")
                     property_id = f"property:{deal_id}:{address_for_id}"
-                    address_id = f"address:{address_for_id}"
+                    address_id = f"{address_for_id}"
                     year_built_id = f"yearbuilt:{prop_info['year_built']}"
                     trustee_prop_type_full_id = f"trusteeproptype:{prop_info['trustee_prop_type_full']}"
                     owner_name = prop_info.get('owner_name', 'UnknownOwner')
@@ -451,6 +451,7 @@ class CMBSDatabaseHandler:
                 json_ld_data["@graph"].append(deal_node)
             output_filename = f"cmbs_graph_{cusip_to_export}.jsonld"
             output_file_path = os.path.join(os.path.dirname(self.db_path), output_filename)
+            print(f"*********output_file_path: {output_file_path}")
             if os.path.exists(output_file_path):
                 os.remove(output_file_path)
             with open(output_file_path, 'w', encoding='utf-8') as f:
@@ -463,7 +464,7 @@ class CMBSDatabaseHandler:
 # Example usage of the class
 if __name__ == "__main__":
     # Set the default path to the Intex SQLite database
-    default_db_path = '/Users/jackyfox/Documents/CMBS_Database/CMBS_H_20250430'
+    default_db_path = './CMBS_H_20250430'
     db_handler = CMBSDatabaseHandler(default_db_path)
     # Get all CUSIPs and process one as an example
     all_cusips = db_handler.get_all_holdings_cusip()
@@ -471,7 +472,7 @@ if __name__ == "__main__":
         cusip_to_process = all_cusips[6]  # Taking one of the CUSIPs as an example
         print(f"Processing data for CUSIP: {cusip_to_process}")
         db_handler.export_cusip_data_to_jsonld(cusip_to_process)  # Export to JSON-LD
-        db_handler.print_node_info_from_jsonld(cusip_to_process)  # Print node info
+        # db_handler.print_node_info_from_jsonld(cusip_to_process)  # Print node info
         # Convert the JSON-LD file to a .cypher file for Neo4j import
         input_jsonld = f"cmbs_graph_{cusip_to_process}.jsonld"
         output_cypher = f"cmbs_graph_{cusip_to_process}.cypher"
