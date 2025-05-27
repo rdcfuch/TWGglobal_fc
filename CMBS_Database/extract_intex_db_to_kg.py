@@ -392,7 +392,7 @@ class CMBSDatabaseHandler:
             # Create the Deal node
             deal_node = {
                 "@type": "Deal",
-                "@id": f"deal:{deal_id}",
+                "@id": f"{deal_id}",
                 "dealId": deal_id,
                 "bloomberg": bloomberg_name if bloomberg_name else "None",
                 "cusip": cusip_to_export if cusip_to_export else "None"
@@ -464,7 +464,7 @@ class CMBSDatabaseHandler:
 # Example usage of the class
 if __name__ == "__main__":
     # Set the default path to the Intex SQLite database
-    default_db_path = './CMBS_H_20250430'
+    default_db_path = '/Users/jackyfox/PycharmProjects/TWGglobal_fc/CMBS_Database/CMBS_H_20250430'
     db_handler = CMBSDatabaseHandler(default_db_path)
     # Get all CUSIPs and process one as an example
     all_cusips = db_handler.get_all_holdings_cusip()
@@ -474,8 +474,8 @@ if __name__ == "__main__":
         db_handler.export_cusip_data_to_jsonld(cusip_to_process)  # Export to JSON-LD
         # db_handler.print_node_info_from_jsonld(cusip_to_process)  # Print node info
         # Convert the JSON-LD file to a .cypher file for Neo4j import
-        input_jsonld = f"cmbs_graph_{cusip_to_process}.jsonld"
-        output_cypher = f"cmbs_graph_{cusip_to_process}.cypher"
+        input_jsonld = f"/Users/jackyfox/PycharmProjects/TWGglobal_fc/CMBS_Database/cmbs_graph_{cusip_to_process}.jsonld"
+        output_cypher = f"/Users/jackyfox/PycharmProjects/TWGglobal_fc/CMBS_Database/cmbs_graph_{cusip_to_process}.cypher"
         convert_jsonld_file_to_cypher(input_jsonld, output_cypher)
     else:
         print("No CUSIPs found to process.")

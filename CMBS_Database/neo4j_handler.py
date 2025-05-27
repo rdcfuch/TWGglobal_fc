@@ -58,7 +58,8 @@ class DealLister:
                 
                 if deal_count == 0:
                     print("No Deal nodes found in the database.")
-                    return
+                    return "No Deal nodes found in the database."
+                
                 
                 # Get all deals with their properties
                 print("\nFetching Deal information:")
@@ -261,20 +262,21 @@ if __name__ == "__main__":
         lister.list_deals()
         # lister.list_properties_by_deal_id("deal:14")
         # lister.list_databases()
-        # lister.get_bloomberg_name_by_deal_id("deal:14")
+        re=lister.get_bloomberg_name_by_deal_id("14")
+        print(f"re:{re}")
         # lister.show_address_by_property_id("property:14:9218 Balcones Club Drive, Austin, TX")
         
         # Search for deals by an address
-        address = "9600 Forest Lane, Dallas, TX"  # Replace with your actual address
-        deal_ids = lister.search_deal_id_by_address(address)
+        # address = "9600 Forest Lane, Dallas, TX"  # Replace with your actual address
+        # deal_ids = lister.search_deal_id_by_address(address)
         
         # The function will automatically print the results, but you can also process the returned deal_ids
-        if deal_ids:
-            print("Found the following deals:")
-            for deal_id in deal_ids:
-                print(f"Deal ID: {deal_id}")
+        # if deal_ids:
+        #     print("Found the following deals:")
+        #     for deal_id in deal_ids:
+        #         print(f"Deal ID: {deal_id}")
         
-
+        # lister.delete_database("gi-cmbs")
     finally:
         lister.close()
 
