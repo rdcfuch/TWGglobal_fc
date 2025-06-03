@@ -385,7 +385,9 @@ class CMBSDatabaseHandler:
         }
         deal_id = str(self.get_deal_id_by_cusip(cusip_to_export))
         issuer_name = self.get_issuer_name_by_cusip(cusip_to_export)
-
+        RAG_deal_description = ""
+        plt_vertex_nodes = "dealId|bloombergName|cusip|propertyId|addressId|yearBuilt|trusteePropType"+"\n"
+        plt_vertex_relations = "parent|relation|child"+"\n"
         if deal_id is not None and deal_id.lower() != 'none':
             bloomberg_name = self.get_bloomberg_name_by_deal_id(deal_id)
             # print(f"*********Deal_id: {deal_id}")
@@ -418,10 +420,25 @@ class CMBSDatabaseHandler:
                     property_owner_id = f"property_owner:{owner_name}"
                     # Add msa_name and prop_name nodes
                     msa_name = prop_info.get('msa_name', 'UnknownMSA')
-                    print(f"*********msa_name: {msa_name}")
                     prop_name = prop_info.get('prop_name', 'UnknownPropName')
                     msa_name_id = f"{msa_name}"
                     prop_name_id = f"{prop_name}"
+
+                    # Create the descption entry for RAG
+                    description = f"the deal {deal_id} has cusip:{cusip_to_export}, the name of this security is {bloomberg_name}, it contains property: {prop_name}, which address is {address_for_id},in the MSA arae:{msa_name} , was built in {prop_info['year_built']} , the trustee property type is {prop_info['trustee_prop_type_full']}"
+                    RAG_deal_description += description + "\n"
+
+
+
+                    # Create the vertex entry for plt
+                    vertex_node_entry = f"{deal_id}|{bloomberg_name}|{cusip_to_export}|{property_id}|{address_id}|{year_built_id}|{trustee_prop_type_full_id}"+"\n"
+                    plt_vertex_nodes += vertex_node_entry
+
+                    vertex_relation_entry = f"{bloomberg_name}|hasProperty|{prop_name}"+"\n"+f"{prop_name}|locatedAt|{address_id}"+"\n"+f"{prop_name}|isUsedAs|{trustee_prop_type_full_id}"+"\n"
+                    plt_vertex_relations += vertex_relation_entry
+
+
+                    # Create the knowledge graph node
                     address_node = {
                         "@type": "Address",
                         "@id": address_id,
@@ -480,6 +497,32 @@ class CMBSDatabaseHandler:
             with open(output_file_path, 'w', encoding='utf-8') as f:
                 json.dump(json_ld_data, f, indent=2, ensure_ascii=False)
             print(f"\nJSON-LD data for CUSIP {cusip_to_export} has been exported to: {output_file_path}")
+
+            rag_output_filename = f"cmbs_rag_{cusip_to_export}.txt"
+            rag_output_file_path = os.path.join(os.path.dirname(self.db_path), rag_output_filename)
+            if os.path.exists(rag_output_file_path):
+                os.remove(rag_output_file_path)
+            with open(rag_output_file_path, 'w', encoding='utf-8') as f:
+                f.write(RAG_deal_description)
+            print(f"\nRAG description for CUSIP {cusip_to_export} has been exported to: {rag_output_file_path}")
+
+            pltr_vertex_relations_output_filename = f"cmbs_pltr_nodes_{cusip_to_export}.csv"
+            pltr_vertex_nodes_output_file_path = os.path.join(os.path.dirname(self.db_path), pltr_vertex_relations_output_filename)
+            if os.path.exists(pltr_vertex_nodes_output_file_path):
+                os.remove(pltr_vertex_nodes_output_file_path)
+            with open(pltr_vertex_nodes_output_file_path, 'w', encoding='utf-8') as f:
+                f.write(plt_vertex_nodes)
+            print(f"\nPalantir description for CUSIP {cusip_to_export} has been exported to: {pltr_vertex_relations_output_filename}")
+            
+            pltr_vertex_relations_output_filename = f"cmbs_pltr_edges_{cusip_to_export}.csv"
+            pltr_vertex_nodes_output_file_path = os.path.join(os.path.dirname(self.db_path), pltr_vertex_relations_output_filename)
+            if os.path.exists(pltr_vertex_nodes_output_file_path):
+                os.remove(pltr_vertex_nodes_output_file_path)
+            with open(pltr_vertex_nodes_output_file_path, 'w', encoding='utf-8') as f:
+                f.write(plt_vertex_relations)
+            print(f"\nPalantir description for CUSIP {cusip_to_export} has been exported to: {pltr_vertex_relations_output_filename}")
+            
+
             return output_file_path
         return None
 
@@ -492,13 +535,13 @@ if __name__ == "__main__":
     # Get all CUSIPs and process one as an example
     all_cusips = db_handler.get_all_holdings_cusip()
     if all_cusips:
-        cusip_to_process = all_cusips[6]  # Taking one of the CUSIPs as an example
-        print(f"Processing data for CUSIP: {cusip_to_process}")
-        db_handler.export_cusip_data_to_jsonld(cusip_to_process)  # Export to JSON-LD
-        # db_handler.print_node_info_from_jsonld(cusip_to_process)  # Print node info
-        # Convert the JSON-LD file to a .cypher file for Neo4j import
-        input_jsonld = f"/Users/jackyfox/PycharmProjects/TWGglobal_fc/CMBS_Database/cmbs_graph_{cusip_to_process}.jsonld"
-        output_cypher = f"/Users/jackyfox/PycharmProjects/TWGglobal_fc/CMBS_Database/cmbs_graph_{cusip_to_process}.cypher"
-        convert_jsonld_file_to_cypher(input_jsonld, output_cypher)
+        # cusip_to_process = all_cusips[6]  # Taking one of the CUSIPs as an example
+        for cusip_to_process in all_cusips[12:13]:
+            print(f"Processing data for CUSIP: {cusip_to_process}")
+            input_jsonld=db_handler.export_cusip_data_to_jsonld(cusip_to_process)  # Export to JSON-LD
+            # input_jsonld = f"/Users/jacpltr_vertex_nodes_output_fikyfox/PycharmProjects/TWGglobal_fc/CMBS_Database/cmbs_graph_{cusip_to_process}.jsonld"
+            if input_jsonld != None:
+                output_cypher = f"/Users/jackyfox/PycharmProjects/TWGglobal_fc/CMBS_Database/cmbs_graph_{cusip_to_process}.cypher"
+                convert_jsonld_file_to_cypher(input_jsonld, output_cypher)
     else:
         print("No CUSIPs found to process.")
