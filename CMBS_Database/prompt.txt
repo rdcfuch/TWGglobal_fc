@@ -1,1 +1,97 @@
 The attached document is all the security I care about, now you should analyze the below news, you need to extract all the security, bonds, address and CMBS related information, compare them to my security list, if you found the corresponding security in my list, list all the matched record for my reference and tell me if my securities are impacted by the news, and how. If you don't find any related information in my list, just mark the related news is not relevant.
+
+
+
+
+
+You are an CMBS analyst, you will analyze the news, find out all the related security, bonds, address and CMBS related information, compare them to my security list, if you found the corresponding security in my list, list all the matched record for my reference and tell me if my securities are impacted by the news, and how. If you don't find any related information in my list, just mark the related news is not relevant.
+
+
+
+
+
+
+You are a Commercial Mortgage-Backed Securities (CMBS) analyst. Your task is to:
+	1.	Analyze the provided news article to extract all pertinent CMBS-related information, including:
+	•	Securities
+	•	Bonds
+	•	Addresses
+	•	Properties
+	•	tenant
+	•	Borrowers
+	•	Servicers
+	•	Tranche ratings
+	•	Special servicing status ￼ ￼ ￼ ￼ ￼
+	2.	Compare the extracted information against my provided security list.
+	3.	For each match found:
+	•	Detail how the news impacts the specific security.
+	•	Provide a concise explanation of the potential implications.
+	•	Include a relevant excerpt from the news article as a reference. ￼
+	4.	If no matches are found, indicate that the news is not relevant to my securities.
+
+Output Format (Markdown):
+
+# Impacted Security: [Security Name or Identifier]
+
+- **Reason**: [Explain the impact, e.g., "The property at 123 Main St., part of this security, has entered special servicing due to tenant default."]
+
+- **Reference**: "[Quote from the news article that supports the above reason.]"
+
+Repeat the above block for each impacted security.
+
+If no securities from my list are impacted:
+
+# No Impacted Securities
+
+- **Status**: The news article does not pertain to any securities in your list. Below is the input news: 
+
+
+
+
+Below is the news: 
+
+Wednesday, May 07, 2025
+ 
+Tuesday's Activity
+Markets continued their pullback on Tuesday, as the three major indexes all closed lower for the second consecutive session. The Dow Jones led the declines, losing nearly 390 points by the closing bell. 
+Earnings season pressed on with reports from Palantir, Mattel, and Ford grabbing headlines. Palantir was one of the session's biggest decliners, tumbling more than 12% after missing expectations, despite raising its 2025 guidance. On a more positive note, Mattel and Ford both saw their shares climb—2.8% and 2.7%, respectively—even as they suspended guidance due to tariff-related unpredictability. Mattel announced it would raise prices and speed up efforts to shift manufacturing away from China. Ford, meanwhile, warned it could face a $1.5 billion impact from ongoing tariff adjustments, though investors expect the company is better prepared than its competitors.
+
+Chipmakers also struggled throughout the trading session, with AMD dropping 2%, Intel slipping 1.6%, and Nvidia down slightly at 0.3%. However, the script flipped after the bell, as AMD posted an earnings beat that sent chip stocks higher after-hours. 
+On the economic front, the U.S. trade deficit widened more than expected in March, surging 14% to a record $140.5 billion. That was well above forecasts, and significantly higher than February's $123.2 billion. The spike was driven by a sharp rise in imports, which have jumped 23.3% so far this year, though imports from China hit a five-year low.
+
+The Dow Jones fell 390 points (0.95%), the S&P was down 0.77%, and the Nasdaq was down 0.87%. The two-year, five-year, and 10-year Treasury yields each were down 5 basis points to 3.79%, 3.90%, and 4.30%, respectively.
+CMBS Activity
+ 
+CMBS trading volume picked up on Tuesday, with $160 million out for bid. Last cashflow AAA conduit spreads remained unchanged, and the BBB- rack tightened by 2 basis points.
+ 
+CMBX 8-17 AAA spreads were unchanged to 10 bps wider. CMBX 9-17 BBB- spreads were between 2 and 64 bps wider
+Trepp Research & Insights
+On April 2, President Trump launched the opening moves in what has become the most encompassing trade war seen in the modern era. Since then, securities markets have reacted to breaking news on this topic with extreme swings. Taken individually or collectively, how will the economic shocks from the developing trade war impact commercial real estate and market participants?
+Listen to the TreppWire Podcast
+Leveraging Trepp’s market expertise and proprietary data sets, The TreppWire Podcast enables listeners to stay up-to-date on all things CRE, structured finance, and banking. Questions or comments? Contact podcast@trepp.com.
+Episode 325. The Macro Seesaw: Mixed Economic Signals, CMBS Issuance History, Rising Delinquencies, & Industrial Sales
+In this week's episode of The TreppWire Podcast, we discuss the markets that are still on edge as investors weighed fresh inflation data, a mixed jobs report, and renewed speculation around the Fed's next move. We share fresh CMBS delinquency data and tease distress and loss data through the eras. We discuss two Westfield mall loans—one with a value reduction and another sent to special servicing. There is positive office news with Deloitte moving its North American headquarters to Hudson Yards, but also negative stories with zombie buildings in Chicago impacting the surrounding market. We close the episode with industrial and warehouse transactions, including a Blackstone affiliate warehouse portfolio sale. Tune in now.
+Credit Stories
+⇨  Hartford, CT, Office Loan Transfers to Special Servicing  
+According to April remittance data, the $27.1 million 100 Pearl Street loan transferred to special servicing recently for imminent monetary default. The loan was previously current on payments throughout its life, but now shows a status of nonperforming matured balloon.
+Special servicer commentary indicates that contact has been made with the borrower and they are currently awaiting due diligence documents.
+The subject collateral is a 273,089-square-foot Class-A office building in the heart of the central business district of Harford, CT. It was built in 1989 and renovated in 2012. The property is comprised of two towers: a low-rise, six-story structure and a high-rise, 17-story multi-tenant office building.
+Most recent financials are from the first nine months of 2024, when the loan posted a DSCR (NCF) of 0.24x with 60% occupancy. DSCR is down heavily from 2023, when it was 1.55x.
+The loan makes up 5.38% of the collateral behind COMM, 2015-PC1.
+TreppREAL ID for 100 Pearl Street : 9USOF17HBRRVFJ2
+⇨  LA Office Value Cut for First Time  
+According to April remittance data, the value of the collateral behind the $25.3 million 444 West Ocean loan was reduced by more than 50% for the first time in a recent appraisal.
+The collateral was originally valued at $41.0 million at securitization in 2017, before an appraisal report issued earlier this year slashed the value to just $19.1 million.
+The loan collateral is a 187,363-square-foot office property in Long Beach, CA, that was built in 1967 and renovated in 2014. The top tenant at the space is Premier Business Centers, which occupies 6.4% of the square footage on a lease running through this October.
+We last wrote about this loan in an August 2024 edition of TreppWire, when it transferred to special servicing for imminent monetary default. It had been current on payments to that point, but it has since shown a status of foreclosure.
+According to special servicer commentary, the lender is dual tracking foreclosure with workout discussions, and the borrower has proposed an interest-only modification that is currently under review.
+For full-year 2024, DSCR (NCF) was 0.68x
+The loan makes up 2.61% of the collateral behind MSBAM 2017-C34. That deal is in CMBX 11.
+TreppREAL ID for 444 West Ocean : 9USOF4CD0ETUYC4
+⇨  ATX Office Loan Transfers to Special Servicing  
+The $24.5 million Chase Park loan transferred to special servicing last month due to imminent monetary default, April remittance data indicated.
+The loan is yet to turn delinquent. It was current on payments prior to April, but now shows a status of less than one month late for its most recent payment. The loan is scheduled to mature this September.
+According to special servicer commentary, the borrower stated that it would agree to a deed in lieu to the lender if the loan is not modified. Commentary also indicates that the special servicer does not anticipate the modification will be granted.
+The loan collateral is an office property in Austin, TX, that spans 288,382 square feet. It was built in 1969 and renovated in 2015. The current appraised value of the asset is $38.4 million, issued at securitization in 2015.
+During the first nine months of 2024, the loan posted a DSCR (NCF) of 0.55x with 45% occupancy. Both figures are little changed from 2023, when DSCR was 0.59x and occupancy was 47%.  
+The loan makes up 3.30% of the collateral behind COMM 2015-CR27.
