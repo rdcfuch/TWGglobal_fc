@@ -411,13 +411,13 @@ class CMBSDatabaseHandler:
                     )
                     # print(f"*********address_for_id: {address_for_id}")
                     # a=input("Press any key to continue...")
-                    property_id = f"property:{deal_id}:{address_for_id}"
+                    property_id = f"{address_for_id}"
                     address_id = f"{address_for_id}"
-                    year_built_id = f"yearbuilt:{prop_info['year_built']}"
-                    trustee_prop_type_full_id = f"trusteeproptype:{prop_info['trustee_prop_type_full']}"
+                    year_built_id = f"{prop_info['year_built']}"
+                    trustee_prop_type_full_id = f"{prop_info['trustee_prop_type_full']}"
                     owner_name = prop_info.get('owner_name', 'UnknownOwner')
                     owner_type = prop_info.get('owner_type', 'UnknownType')
-                    property_owner_id = f"property_owner:{owner_name}"
+                    property_owner_id = f"{owner_name}"
                     # Add msa_name and prop_name nodes
                     msa_name = prop_info.get('msa_name', 'UnknownMSA')
                     prop_name = prop_info.get('prop_name', 'UnknownPropName')
@@ -489,22 +489,22 @@ class CMBSDatabaseHandler:
                     json_ld_data["@graph"].append(msa_name_node)
                     json_ld_data["@graph"].append(prop_name_node)
                 json_ld_data["@graph"].append(deal_node)
-            output_filename = f"cmbs_graph_{cusip_to_export}.jsonld"
-            output_file_path = os.path.join(os.path.dirname(self.db_path), output_filename)
-            print(f"*********output_file_path: {output_file_path}")
-            if os.path.exists(output_file_path):
-                os.remove(output_file_path)
-            with open(output_file_path, 'w', encoding='utf-8') as f:
-                json.dump(json_ld_data, f, indent=2, ensure_ascii=False)
-            print(f"\nJSON-LD data for CUSIP {cusip_to_export} has been exported to: {output_file_path}")
+            # output_filename = f"cmbs_graph_{cusip_to_export}.jsonld"
+            # output_file_path = os.path.join(os.path.dirname(self.db_path), output_filename)
+            # print(f"*********output_file_path: {output_file_path}")
+            # if os.path.exists(output_file_path):
+            #     os.remove(output_file_path)
+            # with open(output_file_path, 'w', encoding='utf-8') as f:
+            #     json.dump(json_ld_data, f, indent=2, ensure_ascii=False)
+            # print(f"\nJSON-LD data for CUSIP {cusip_to_export} has been exported to: {output_file_path}")
 
-            rag_output_filename = f"cmbs_rag_{cusip_to_export}.txt"
-            rag_output_file_path = os.path.join(os.path.dirname(self.db_path), rag_output_filename)
-            if os.path.exists(rag_output_file_path):
-                os.remove(rag_output_file_path)
-            with open(rag_output_file_path, 'w', encoding='utf-8') as f:
-                f.write(RAG_deal_description)
-            print(f"\nRAG description for CUSIP {cusip_to_export} has been exported to: {rag_output_file_path}")
+            # rag_output_filename = f"cmbs_rag_{cusip_to_export}.txt"
+            # rag_output_file_path = os.path.join(os.path.dirname(self.db_path), rag_output_filename)
+            # if os.path.exists(rag_output_file_path):
+            #     os.remove(rag_output_file_path)
+            # with open(rag_output_file_path, 'w', encoding='utf-8') as f:
+            #     f.write(RAG_deal_description)
+            # print(f"\nRAG description for CUSIP {cusip_to_export} has been exported to: {rag_output_file_path}")
 
             pltr_vertex_relations_output_filename = f"cmbs_pltr_nodes_{cusip_to_export}.csv"
             pltr_vertex_nodes_output_file_path = os.path.join(os.path.dirname(self.db_path), pltr_vertex_relations_output_filename)
@@ -514,16 +514,16 @@ class CMBSDatabaseHandler:
                 f.write(plt_vertex_nodes)
             print(f"\nPalantir description for CUSIP {cusip_to_export} has been exported to: {pltr_vertex_relations_output_filename}")
             
-            pltr_vertex_relations_output_filename = f"cmbs_pltr_edges_{cusip_to_export}.csv"
-            pltr_vertex_nodes_output_file_path = os.path.join(os.path.dirname(self.db_path), pltr_vertex_relations_output_filename)
-            if os.path.exists(pltr_vertex_nodes_output_file_path):
-                os.remove(pltr_vertex_nodes_output_file_path)
-            with open(pltr_vertex_nodes_output_file_path, 'w', encoding='utf-8') as f:
-                f.write(plt_vertex_relations)
-            print(f"\nPalantir description for CUSIP {cusip_to_export} has been exported to: {pltr_vertex_relations_output_filename}")
+            # pltr_vertex_relations_output_filename = f"cmbs_pltr_edges_{cusip_to_export}.csv"
+            # pltr_vertex_nodes_output_file_path = os.path.join(os.path.dirname(self.db_path), pltr_vertex_relations_output_filename)
+            # if os.path.exists(pltr_vertex_nodes_output_file_path):
+            #     os.remove(pltr_vertex_nodes_output_file_path)
+            # with open(pltr_vertex_nodes_output_file_path, 'w', encoding='utf-8') as f:
+            #     f.write(plt_vertex_relations)
+            # print(f"\nPalantir description for CUSIP {cusip_to_export} has been exported to: {pltr_vertex_relations_output_filename}")
             
 
-            return output_file_path
+            return pltr_vertex_nodes_output_file_path
         return None
 
 
@@ -536,12 +536,12 @@ if __name__ == "__main__":
     all_cusips = db_handler.get_all_holdings_cusip()
     if all_cusips:
         # cusip_to_process = all_cusips[6]  # Taking one of the CUSIPs as an example
-        for cusip_to_process in all_cusips[12:13]:
+        for cusip_to_process in all_cusips:
             print(f"Processing data for CUSIP: {cusip_to_process}")
             input_jsonld=db_handler.export_cusip_data_to_jsonld(cusip_to_process)  # Export to JSON-LD
             # input_jsonld = f"/Users/jacpltr_vertex_nodes_output_fikyfox/PycharmProjects/TWGglobal_fc/CMBS_Database/cmbs_graph_{cusip_to_process}.jsonld"
-            if input_jsonld != None:
-                output_cypher = f"/Users/jackyfox/PycharmProjects/TWGglobal_fc/CMBS_Database/cmbs_graph_{cusip_to_process}.cypher"
-                convert_jsonld_file_to_cypher(input_jsonld, output_cypher)
+            # if input_jsonld != None:
+            #     output_cypher = f"/Users/jackyfox/PycharmProjects/TWGglobal_fc/CMBS_Database/cmbs_graph_{cusip_to_process}.cypher"
+            #     convert_jsonld_file_to_cypher(input_jsonld, output_cypher)
     else:
         print("No CUSIPs found to process.")
