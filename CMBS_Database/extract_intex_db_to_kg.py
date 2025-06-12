@@ -4,6 +4,7 @@ import os
 import json
 from typing import List, Dict, Any, Optional, Union
 from jsonld_to_cypher import convert_jsonld_file_to_cypher
+import glob
 
 
 # Main handler class for CMBS database operations
@@ -526,11 +527,112 @@ class CMBSDatabaseHandler:
             return pltr_vertex_nodes_output_file_path
         return None
 
+    # Clean up generated files
+def clean_directory(directory):
+    """Cleans up all files in the specified directory and deletes specific 'cmbs_' files."""
+    for root, _, files in os.walk(directory):
+        for file in files:
+            if file.startswith("cmbs_") and file.endswith(('.txt','.csv', '.jsonld', '.cypher')):
+                filepath = os.path.join(root, file)
+                print(f"Deleting file: {filepath}")
+                os.remove(filepath)
+    # Combine CSV files and export to Excel
+def combine_csv_files(pattern="cmbs_pltr_nodes*.csv", output_file="combined_cmbs_pltr_nodes.csv"):
+    """Combine multiple CSV files matching a pattern into a single output file."""
+    # Get all files matching the pattern
+    input_files = sorted(glob.glob(pattern))
+    
+    if not input_files:
+        print(f"No files found matching pattern: {pattern}")
+        return None
+    
+    # Combine files
+    with open(output_file, "w", encoding="utf-8") as outfile:
+        first_file = True
+        for file in input_files:
+            with open(file, "r", encoding="utf-8") as infile:
+                lines = infile.readlines()
+                if first_file:
+                    outfile.writelines(lines)
+                    first_file = False
+                else:
+                    outfile.writelines(lines[1:])  # Skip header
+                outfile.write("\n")  # Optional: Add newline between files
+    
+    print(f"Combined {len(input_files)} files into {output_file}")
+    return output_file
+
+def convert_to_excel(csv_file, excel_file=None, separator='|'):
+    """Convert a CSV file to Excel format using the specified separator."""
+    if excel_file is None:
+        excel_file = csv_file.replace('.csv', '.xlsx')
+    
+    # Read the CSV file with the specified separator
+    df = pd.read_csv(csv_file, sep=separator)
+    
+    # Write to Excel file
+    df.to_excel(excel_file, index=False)
+    
+    print(f"Converted {csv_file} to Excel format: {excel_file}")
+
+
+ # Clean up generated files
+def clean_directory(directory):
+    """Cleans up all files in the specified directory and deletes specific 'cmbs_' files."""
+    for root, _, files in os.walk(directory):
+        for file in files:
+            if file.startswith("cmbs_") and file.endswith(('.txt','.csv', '.jsonld', '.cypher')):
+                filepath = os.path.join(root, file)
+                print(f"Deleting file: {filepath}")
+                os.remove(filepath)
+    
+# Combine CSV files and export to Excel
+def combine_csv_files(pattern="cmbs_pltr_nodes*.csv", output_file="combined_cmbs_pltr_nodes.csv"):
+    """Combine multiple CSV files matching a pattern into a single output file."""
+    # Get all files matching the pattern
+    input_files = sorted(glob.glob(pattern))
+    
+    if not input_files:
+        print(f"No files found matching pattern: {pattern}")
+        return None
+    
+    # Combine files
+    with open(output_file, "w", encoding="utf-8") as outfile:
+        first_file = True
+        for file in input_files:
+            with open(file, "r", encoding="utf-8") as infile:
+                lines = infile.readlines()
+                if first_file:
+                    outfile.writelines(lines)
+                    first_file = False
+                else:
+                    outfile.writelines(lines[1:])  # Skip header
+                outfile.write("\n")  # Optional: Add newline between files
+    
+    print(f"Combined {len(input_files)} files into {output_file}")
+    return output_file
+
+def convert_to_excel(csv_file, excel_file=None, separator='|'):
+    """Convert a CSV file to Excel format using the specified separator."""
+    if excel_file is None:
+        excel_file = csv_file.replace('.csv', '.xlsx')
+    
+    # Read the CSV file with the specified separator
+    df = pd.read_csv(csv_file, sep=separator)
+    
+    # Write to Excel file
+    df.to_excel(excel_file, index=False)
+    
+    print(f"Converted {csv_file} to Excel format: {excel_file}")
+
+ 
 
 # Example usage of the class
 if __name__ == "__main__":
     # Set the default path to the Intex SQLite database
-    default_db_path = '/Users/jackyfox/PycharmProjects/TWGglobal_fc/CMBS_Database/CMBS_H_20250430'
+    # Change from hardcoded path to current directory
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    default_db_path = os.path.join(current_dir, 'CMBS_H_20250430')
     db_handler = CMBSDatabaseHandler(default_db_path)
     # Get all CUSIPs and process one as an example
     all_cusips = db_handler.get_all_holdings_cusip()
@@ -545,3 +647,16 @@ if __name__ == "__main__":
             #     convert_jsonld_file_to_cypher(input_jsonld, output_cypher)
     else:
         print("No CUSIPs found to process.")
+        
+   
+    
+    # Process the files
+    print("\nCombining CSV files and exporting to Excel...")
+    combined_file = combine_csv_files()
+    if combined_file:
+        convert_to_excel(combined_file)
+    
+    # Clean up the current directory
+    print("\nCleaning up generated files...")
+    clean_directory(os.path.dirname(default_db_path))
+    print("Cleanup complete.")
